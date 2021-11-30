@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">1031842006227-modjhm267fi08m27bmcnshbtgga34k34.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">1031842006227</string>
+    <string name="google_api_key" translatable="false">AIzaSyBAkXv4F0Wp0ECDhPx0rzPvrUzbKnC27ek</string>
+    <string name="google_app_id" translatable="false">1:1031842006227:android:60e3b69521d309242c0026</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBAkXv4F0Wp0ECDhPx0rzPvrUzbKnC27ek</string>
+    <string name="google_storage_bucket" translatable="false">spabooking-55ca2.appspot.com</string>
+    <string name="project_id" translatable="false">spabooking-55ca2</string>
+</resources>

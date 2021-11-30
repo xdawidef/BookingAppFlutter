@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1031842006227",
+    "project_id": "spabooking-55ca2",
+    "storage_bucket": "spabooking-55ca2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1031842006227:android:60e3b69521d309242c0026",
+        "android_client_info": {
+          "package_name": "com.example.flutter_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1031842006227-i9kjmhb62k4c0tqai7r8imdr97ni7g2o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.flutter_app",
+            "certificate_hash": "39fdc7a827d0dbd85ec5009798be27fe79667e9f"
+          }
+        },
+        {
+          "client_id": "1031842006227-modjhm267fi08m27bmcnshbtgga34k34.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAkXv4F0Wp0ECDhPx0rzPvrUzbKnC27ek"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1031842006227-modjhm267fi08m27bmcnshbtgga34k34.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
