@@ -1,6 +1,6 @@
 import 'package:flutter/src/widgets/framework.dart';
-import 'package:flutter_app/cloud_firestore/banner_ref.dart';
-import 'package:flutter_app/cloud_firestore/lookbook_ref.dart';
+import 'package:flutter_app/cloud_firestore/carousel_ref.dart';
+import 'package:flutter_app/cloud_firestore/gallery_ref.dart';
 import 'package:flutter_app/cloud_firestore/user_ref.dart';
 import 'package:flutter_app/model/image_model.dart';
 import 'package:flutter_app/model/user_model.dart';
@@ -10,13 +10,13 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 class HomeViewModelImp implements HomeViewModel{
   @override
-  Future<List<ImageModel>> displayBanner() {
-    return getBanners();
+  Future<List<ImageModel>> displayCarousel() {
+    return getCarousel();
   }
 
   @override
-  Future<List<ImageModel>> displayLookbook() {
-    return getLookbook();
+  Future<List<ImageModel>> displayGallery() {
+    return getGallery();
   }
 
   @override

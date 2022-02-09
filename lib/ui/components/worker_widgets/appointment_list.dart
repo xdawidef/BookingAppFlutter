@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_app/state/state_management.dart';
 import 'package:flutter_app/string/strings.dart';
-import 'package:flutter_app/utils/utils.dart';
-import 'package:flutter_app/view_model/staff_home/staff_home_view_model.dart';
+import 'package:flutter_app/ui/login_page/theme.dart';
+import 'package:flutter_app/time_description/time_description.dart';
+import 'package:flutter_app/view_model/worker_home/worker_home_view_model.dart';
 import 'package:flutter_datetime_picker/flutter_datetime_picker.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -10,7 +11,6 @@ import 'package:intl/intl.dart';
 
 displayAppointment(
     StaffHomeViewModel staffHomeViewModel, BuildContext context) {
-  //Check is user a staff of this salon
   return FutureBuilder(
       future: staffHomeViewModel.isStaffOfThisSalon(context),
       builder: (context, snapshot) {
@@ -24,7 +24,9 @@ displayAppointment(
             return displaySlot(staffHomeViewModel, context);
           else
             return Center(
-              child: Text('Sorry! You\'re not a staff of this salon!'),
+              child: Text('Sorry! You\'re not a staff of this salon!', style:
+                  yellowTextStyle.copyWith(
+                  fontSize: 16, fontWeight: medium)),
             );
         }
       });
@@ -35,7 +37,7 @@ displaySlot(StaffHomeViewModel staffHomeViewModel, BuildContext context) {
   return Column(
     children: [
       Container(
-          color: Color(0xFF008577),
+          color: lessDarkGreenColor,
           child: Row(
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
@@ -47,18 +49,21 @@ displaySlot(StaffHomeViewModel staffHomeViewModel, BuildContext context) {
                       children: [
                         Text(
                           '${DateFormat.MMMM().format(now)}',
-                          style: GoogleFonts.robotoMono(color: Colors.white54),
+                          style:
+                          yellowTextStyle.copyWith(
+                              fontSize: 16, fontWeight: medium),
                         ),
                         Text(
                           '${now.day}',
-                          style: GoogleFonts.robotoMono(
-                              color: Colors.white,
-                              fontWeight: FontWeight.bold,
-                              fontSize: 22),
+                          style:
+                          yellowTextStyle.copyWith(
+                              fontSize: 20, fontWeight: medium),
                         ),
                         Text(
                           '${DateFormat.EEEE().format(now)}',
-                          style: GoogleFonts.robotoMono(color: Colors.white54),
+                          style:
+                          yellowTextStyle.copyWith(
+                              fontSize: 16, fontWeight: medium),
                         ),
                       ],
                     ),
@@ -78,7 +83,7 @@ displaySlot(StaffHomeViewModel staffHomeViewModel, BuildContext context) {
                   padding: const EdgeInsets.all(8),
                   child: Align(
                     alignment: Alignment.centerRight,
-                    child: Icon(Icons.calendar_today, color: Colors.white),
+                    child: Icon(Icons.calendar_today, color: yellowColor),
                   ),
                 ),
               )
@@ -133,18 +138,20 @@ displaySlot(StaffHomeViewModel staffHomeViewModel, BuildContext context) {
                                         mainAxisAlignment:
                                             MainAxisAlignment.center,
                                         children: [
-                                          Text('${TIME_SLOT.elementAt(index)}'),
+                                          Text('${TIME_SLOT.elementAt(index)}', style: yellowTextStyle.copyWith(
+                                    fontSize: 14, fontWeight: medium)),
                                           Text(listTimeSlot.contains(index)
                                               ? fullText
                                               : maxTimeSlot > index
                                                   ? notAvailableText
-                                                  : availableText)
+                                                  : availableText, style: yellowTextStyle.copyWith(
+                                              fontSize: 12, fontWeight: medium),),
                                         ],
                                       ),
                                     ),
                                     header: context.read(selectedTime).state ==
                                             TIME_SLOT.elementAt(index)
-                                        ? Icon(Icons.check)
+                                        ? Icon(Icons.star, color: yellowColor,)
                                         : null,
                                   ),
                                 ),

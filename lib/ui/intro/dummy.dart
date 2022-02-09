@@ -1,20 +1,20 @@
 List data = [
   {
-    'title': 'Destination',
+    'title': 'Welcome',
     'subtitle':
-        'There is something',
+        'Welcome in BookingApp!',
     'imageUrl': 'assets/images/image1.png',
   },
   {
     'title': 'Booking',
     'subtitle':
-    'There is something',
+    'Book your visits anytime and anywhere',
     'imageUrl': 'assets/images/image2.png',
   },
   {
     'title': 'Enjoy your booking!',
     'subtitle':
-    'There is something',
+    'Check the history of your visits!',
     'imageUrl': 'assets/images/image3.png',
   },
 

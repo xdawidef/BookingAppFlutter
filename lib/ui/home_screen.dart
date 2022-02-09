@@ -2,8 +2,8 @@ import 'package:carousel_slider/carousel_slider.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/framework.dart';
-import 'package:flutter_app/cloud_firestore/banner_ref.dart';
-import 'package:flutter_app/cloud_firestore/lookbook_ref.dart';
+import 'package:flutter_app/cloud_firestore/carousel_ref.dart';
+import 'package:flutter_app/cloud_firestore/gallery_ref.dart';
 import 'package:flutter_app/cloud_firestore/user_ref.dart';
 import 'package:flutter_app/model/image_model.dart';
 import 'package:flutter_app/model/user_model.dart';
@@ -42,7 +42,8 @@ class _HomePageState extends State<HomePage> {
           )),
       backgroundColor: greenColor,
 
-      body: Column(
+      body: SingleChildScrollView(
+        child: Column(
         children: [
           Padding(
             padding: const EdgeInsets.only(
@@ -134,21 +135,21 @@ class _HomePageState extends State<HomePage> {
             ),
           ),
           FutureBuilder(
-              future: homeViewModel.displayBanner(),
+              future: homeViewModel.displayCarousel(),
               builder: (context, snapshot) {
                 if (snapshot.connectionState == ConnectionState.waiting)
                   return Center(
                     child: CircularProgressIndicator(),
                   );
                 else {
-                  var banners = snapshot.data as List<ImageModel>;
+                  var carousel = snapshot.data as List<ImageModel>;
                   return CarouselSlider(
                       options: CarouselOptions(
                           enlargeCenterPage: true,
                           aspectRatio: 3.0,
                           autoPlay: true,
                           autoPlayInterval: Duration(seconds: 3)),
-                      items: banners
+                      items: carousel
                           .map((e) =>
                           Container(
                             child: ClipRRect(
@@ -159,32 +160,49 @@ class _HomePageState extends State<HomePage> {
                           .toList());
                 }
               }),
-        ],
+          Padding(
+            padding: const EdgeInsets.all(8),
+            child: Row(
+              children: [
+                Text(
+                  'Gallery:',
+                  style: TextStyle(
+                      fontSize: 22,
+                      fontWeight: FontWeight.w800,
+                      color: yellowColor),
+                )
+              ],
+            ),
+          ),
+          FutureBuilder(
+              future: homeViewModel.displayGallery(),
+              builder: (context, snapshot) {
+                if (snapshot.connectionState == ConnectionState.waiting)
+                  return Center(
+                    child: CircularProgressIndicator(),
+                  );
+                else {
+                  var gallery = snapshot.data as List<ImageModel>;
+                  return Column(
+                    children: gallery
+                        .map((e) =>
+                        Container(
+                          padding: const EdgeInsets.all(8),
+                          child: ClipRRect(
+                            borderRadius: BorderRadius.circular(8),
+                            child: Image.network(e.image),
+                          ),
+                        ))
+                        .toList(),
+                  );
+                }
+              }),
+        ]),
       ),
     );
 
 
-
-
   }
-
-  // BottomNavigationBarItem buildBottomNavigationBarItem(
-  //     IconData image, int index, String desc) {
-  //   return BottomNavigationBarItem(
-  //     icon: Column(
-  //       children: [
-  //         Icon(
-  //           image,
-  //           size: 20,
-  //         ),
-  //       ],
-  //     ),
-  //     title: Text(
-  //       desc,
-  //       style: TextStyle(fontSize: 12),
-  //     ),
-  //   );
-  // }
 }
 
 

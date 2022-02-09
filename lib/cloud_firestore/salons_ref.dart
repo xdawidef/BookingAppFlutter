@@ -1,5 +1,4 @@
 import 'dart:convert';
-
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/cupertino.dart';
@@ -13,9 +12,9 @@ import 'package:intl/intl.dart';
 
 Future<BookingModel> getDetailBooking(BuildContext context, int timeSlot) async{
   CollectionReference userRef = FirebaseFirestore.instance
-      .collection('AllSalon')
+      .collection('Salons')
       .doc(context.read(selectedCity).state.name)
-      .collection('Spa')
+      .collection('Field')
       .doc(context.read(selectedSalon).state.docId)
       .collection('Worker')
       .doc(FirebaseAuth.instance.currentUser!.uid)
@@ -45,32 +44,6 @@ Future<BookingModel> getDetailBooking(BuildContext context, int timeSlot) async{
   }
 }
 
-Future<List<CityModel>> getCities() async {
-  var cities = new List<CityModel>.empty(growable: true);
-  var cityRef = FirebaseFirestore.instance.collection('AllSalon');
-  var snapshot = await cityRef.get();
-  snapshot.docs.forEach((element) {
-    cities.add(CityModel.fromJson(element.data()));
-  });
-  return cities;
-}
-
-Future<List<SalonModel>> getSalonByCity(String cityName) async {
-  var salons = new List<SalonModel>.empty(growable: true);
-  var salonRef = FirebaseFirestore.instance
-      .collection('AllSalon')
-      .doc(cityName.replaceAll(' ', ''))
-      .collection('Spa');
-  var snapshot = await salonRef.get();
-  snapshot.docs.forEach((element) {
-    var salon = SalonModel.fromJson(element.data());
-    salon.docId = element.id;
-    salon.reference = element.reference;
-    salons.add(salon);
-  });
-  return salons;
-}
-
 Future<List<WorkerModel>> getWorkerBySalon(SalonModel salon) async {
   var workers = new List<WorkerModel>.empty(growable: true);
   var workerRef = salon.reference!.collection('Worker');
@@ -84,8 +57,33 @@ Future<List<WorkerModel>> getWorkerBySalon(SalonModel salon) async {
   return workers;
 }
 
-Future<List<int>> getTimeSlotOfWorker(
-    WorkerModel workerModel, String date) async {
+Future<List<CityModel>> getCities() async {
+  var cities = new List<CityModel>.empty(growable: true);
+  var cityRef = FirebaseFirestore.instance.collection('Salons');
+  var snapshot = await cityRef.get();
+  snapshot.docs.forEach((element) {
+    cities.add(CityModel.fromJson(element.data()));
+  });
+  return cities;
+}
+
+Future<List<SalonModel>> getSalonByCity(String cityName) async {
+  var salons = new List<SalonModel>.empty(growable: true);
+  var salonRef = FirebaseFirestore.instance
+      .collection('Salons')
+      .doc(cityName.replaceAll(' ', ''))
+      .collection('Field');
+  var snapshot = await salonRef.get();
+  snapshot.docs.forEach((element) {
+    var salon = SalonModel.fromJson(element.data());
+    salon.docId = element.id;
+    salon.reference = element.reference;
+    salons.add(salon);
+  });
+  return salons;
+}
+
+Future<List<int>> getTimeSlotOfWorker(WorkerModel workerModel, String date) async {
   List<int> result = new List<int>.empty(growable: true);
   var bookingRef = workerModel.reference!.collection(date);
   QuerySnapshot snapshot = await bookingRef.get();
@@ -97,22 +95,21 @@ Future<List<int>> getTimeSlotOfWorker(
 
 Future<bool> checkStaffOfThisSalon(BuildContext context) async {
   DocumentSnapshot workerSnapshot = await FirebaseFirestore.instance
-      .collection('AllSalon')
+      .collection('Salons')
       .doc('${context.read(selectedCity).state.name}')
-      .collection('Spa')
+      .collection('Field')
       .doc('${context.read(selectedSalon).state.docId}')
       .collection('Worker')
       .doc(FirebaseAuth.instance.currentUser!.uid)
       .get();
-  return workerSnapshot.exists; //Compare uid of staff
+  return workerSnapshot.exists;
 }
 
-Future<List<int>> getBookingSlotOfWorker(
-    BuildContext context, String date) async {
+Future<List<int>> getBookingSlotOfWorker(BuildContext context, String date) async {
   var workerDocument = FirebaseFirestore.instance
-      .collection('AllSalon')
+      .collection('Salons')
       .doc('${context.read(selectedCity).state.name}')
-      .collection('Spa')
+      .collection('Field')
       .doc('${context.read(selectedSalon).state.docId}')
       .collection('Worker')
       .doc(FirebaseAuth.instance.currentUser!.uid);

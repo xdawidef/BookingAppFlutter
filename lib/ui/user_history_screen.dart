@@ -4,7 +4,7 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/framework.dart';
-import 'package:flutter_app/cloud_firestore/all_salon_ref.dart';
+import 'package:flutter_app/cloud_firestore/salons_ref.dart';
 import 'package:flutter_app/cloud_firestore/user_ref.dart';
 import 'package:flutter_app/model/booking_model.dart';
 import 'package:flutter_app/model/city_model.dart';
@@ -12,7 +12,7 @@ import 'package:flutter_app/model/salon_model.dart';
 import 'package:flutter_app/model/worker_model.dart';
 import 'package:flutter_app/state/state_management.dart';
 import 'package:flutter_app/ui/navbar.dart';
-import 'package:flutter_app/utils/utils.dart';
+import 'package:flutter_app/time_description/time_description.dart';
 import 'package:flutter_app/view_model/user_history/user_history_view_model.dart';
 import 'package:flutter_app/view_model/user_history/user_history_view_model_imp.dart';
 import 'package:flutter_datetime_picker/flutter_datetime_picker.dart';
@@ -28,10 +28,11 @@ import 'login_page/theme.dart';
 class UserHistory extends ConsumerWidget {
   final scaffoldKey = GlobalKey<ScaffoldState>();
   final userHistoryViewModel = UserHistoryViewModelImp();
+  final formatCurrency = new NumberFormat.currency(locale: "en_US", symbol: "");
 
   @override
   Widget build(BuildContext context, watch) {
-    var watchRefresh = watch(deleteFlagRefresh).state;
+    var watchRefresh = watch(deleteBooking).state;
     return SafeArea(
         child: Scaffold(
       key: scaffoldKey,
@@ -39,7 +40,7 @@ class UserHistory extends ConsumerWidget {
           appBar: PreferredSize(
               preferredSize: Size.fromHeight(40),
               child: AppBar(
-                title: Text('History',
+                title: Text('User history',
                     style: yellowTextStyle.copyWith(
                         fontSize: 18, fontWeight: medium)),
                 centerTitle: true,
@@ -61,11 +62,12 @@ class UserHistory extends ConsumerWidget {
                 var userBookings = snapshot.data as List<BookingModel>;
                 if (userBookings.length == 0)
                   return Center(
-                    child: Text('Cannot load booking information'),
+                    child: Text('You don\'t have any reservations!', style: yellowTextStyle.copyWith(
+                        fontSize: 18, fontWeight: medium)),
                   );
                 else {
                   return FutureBuilder(
-                      future: syncTime(),
+                      future: synchroTime(),
                       builder: (context, snapshot) {
                         if (snapshot.connectionState == ConnectionState.waiting)
                           return Center(
@@ -81,6 +83,7 @@ class UserHistory extends ConsumerWidget {
                                     userBookings[index].timeStamp)
                                     .isBefore(syncTime);
                                 return Card(
+                                  color: lessGreyColor,
                                   elevation: 8,
                                   shape: RoundedRectangleBorder(
                                       borderRadius:
@@ -154,21 +157,32 @@ class UserHistory extends ConsumerWidget {
                                                     Text(
                                                       '${userBookings[index].salonName}',
                                                       style: GoogleFonts.robotoMono(
-                                                          fontSize: 20,
+                                                          fontSize: 13,
                                                           fontWeight:
                                                           FontWeight.bold),
                                                     ),
                                                     Text(
-                                                      '${userBookings[index].workerName}',
+                                                      'Worker: ${userBookings[index].workerName}',
                                                       style:
                                                       GoogleFonts.robotoMono(),
                                                     )
                                                   ],
                                                 ),
-                                                Text(
-                                                  '${userBookings[index].salonAddress}',
-                                                  style: GoogleFonts.robotoMono(),
-                                                )
+                                                Row(
+                                                  mainAxisAlignment:
+                                                  MainAxisAlignment
+                                                      .spaceBetween,
+                                                  children: [
+                                                    Text(
+                                                      '${userBookings[index].salonAddress}',
+                                                      style: GoogleFonts.robotoMono(),
+                                                    ),
+                                                    Text(
+                                                      'Total price: ${formatCurrency.format(userBookings[index].totalPrice)} zł',
+                                                      style: GoogleFonts.robotoMono(),
+                                                    ),
+                                                  ],
+                                                ),
                                               ],
                                             )
                                           ],

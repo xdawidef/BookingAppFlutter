@@ -1,11 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/framework.dart';
-import 'package:flutter_app/cloud_firestore/all_salon_ref.dart';
+import 'package:flutter_app/cloud_firestore/salons_ref.dart';
 import 'package:flutter_app/model/city_model.dart';
 import 'package:flutter_app/model/salon_model.dart';
 import 'package:flutter_app/state/state_management.dart';
-import 'package:flutter_app/utils/utils.dart';
-import 'package:flutter_app/view_model/staff_home/staff_home_view_model.dart';
+import 'package:flutter_app/ui/login_page/theme.dart';
+import 'package:flutter_app/time_description/time_description.dart';
+import 'package:flutter_app/view_model/worker_home/worker_home_view_model.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 class StaffHomeViewModelImp implements StaffHomeViewModel{
@@ -69,15 +70,15 @@ class StaffHomeViewModelImp implements StaffHomeViewModel{
   @override
   Color getColorOfThisSlot(BuildContext context, List<int> listTimeSlot, int index, int maxTimeSlot) {
     return listTimeSlot.contains(index)
-        ? Colors.white10
+        ? greyColor
         : maxTimeSlot > index
-        ? Colors.white60
+        ? timeColor
         : context
         .read(selectedTime)
         .state ==
         TIME_SLOT.elementAt(index)
-        ? Colors.white54
-        : Colors.white;
+        ? darkGreenColor
+        : lessDarkGreenColor;
   }
 
 }

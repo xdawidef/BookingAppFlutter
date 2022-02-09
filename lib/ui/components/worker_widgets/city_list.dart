@@ -2,7 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_app/model/city_model.dart';
 import 'package:flutter_app/state/state_management.dart';
 import 'package:flutter_app/string/strings.dart';
-import 'package:flutter_app/view_model/staff_home/staff_home_view_model.dart';
+import 'package:flutter_app/ui/login_page/theme.dart';
+import 'package:flutter_app/view_model/worker_home/worker_home_view_model.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 staffDisplayCity(StaffHomeViewModel staffHomeViewModel) {
@@ -34,11 +35,25 @@ staffDisplayCity(StaffHomeViewModel staffHomeViewModel) {
                         shape: staffHomeViewModel.isCitySelected(context, cities[index])
                             ? RoundedRectangleBorder(
                             side:
-                            BorderSide(color: Colors.green, width: 4),
+                            BorderSide(color: yellowColor, width: 3),
                             borderRadius: BorderRadius.circular(5))
                             : null,
-                        child: Center(
-                          child: Text('${cities[index].name}'),
+                        child: Container(
+                          decoration: BoxDecoration(
+                            image: DecorationImage(
+                              fit: BoxFit.cover,
+                              image: NetworkImage(cities[index].cityPhoto),
+                            ),
+                          ),
+                          child: Center(
+                            child: Container(
+                              child: Text('${cities[index].name}', style: yellowTextStyle.copyWith(
+                                  fontSize: 18, fontWeight: medium), textAlign: TextAlign.center),
+                              decoration: BoxDecoration(
+                                color: darkGreenColor,
+                              ),
+                            ),
+                          ),
                         ),
                       ),
                     ),

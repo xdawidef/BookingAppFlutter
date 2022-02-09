@@ -1,11 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_app/model/city_model.dart';
-import 'package:flutter_app/state/state_management.dart';
 import 'package:flutter_app/string/strings.dart';
 import 'package:flutter_app/ui/login_page/theme.dart';
 import 'package:flutter_app/view_model/booking/booking_view_model.dart';
-import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:google_fonts/google_fonts.dart';
 
 displayCityList(BookingViewModel bookingViewModel) {
   return FutureBuilder(

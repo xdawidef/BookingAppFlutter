@@ -8,6 +8,8 @@ import 'package:flutter_app/model/user_model.dart';
 import 'package:flutter_app/ui/login_page/theme.dart';
 import 'package:flutter_app/view_model/home/home_view_model_imp.dart';
 import 'package:flutter_svg/svg.dart';
+import 'package:geocoding/geocoding.dart';
+import 'package:geolocator/geolocator.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:path/path.dart';
 
@@ -19,125 +21,241 @@ class ProfileBody extends StatefulWidget {
 class _ProfileBodyState extends State<ProfileBody> {
   File file = File('');
   final homeViewModel = HomeViewModelImp();
+  var locationController = TextEditingController();
+  var nameController = TextEditingController();
+  var addressController = TextEditingController();
+
+  Position? position;
+  List<Placemark>? placeMarks;
+
+  getCurrentLocation() async{
+    Position newPosition = await Geolocator.getCurrentPosition(
+      desiredAccuracy: LocationAccuracy.best, forceAndroidLocationManager: true
+    );
+    position = newPosition;
+    placeMarks = await placemarkFromCoordinates(
+      position!.latitude,
+      position!.longitude,
+    );
+
+    Placemark pMark = placeMarks![0];
+
+    String completeAddress = '${pMark.thoroughfare} ${pMark.subThoroughfare}, ${pMark.postalCode} ${pMark.locality}, ${pMark.administrativeArea}, ${pMark.country}';
+    locationController.text = completeAddress;
+  }
 
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: greenColor,
-      body: Column(
-        children: <Widget>[
-          SizedBox(
-            height: 240,
-            child: Stack(
-              children: <Widget>[
-                ClipPath(
-                  clipper: CustomShape(),
-                  child: Container(
-                    height: 150,
-                    color: yellowColor,
+      body: SingleChildScrollView (
+        child: Column(
+          children: <Widget>[
+            SizedBox(
+              height: 240,
+              child: Stack(
+                children: <Widget>[
+                  ClipPath(
+                    clipper: CustomShape(),
+                    child: Container(
+                      height: 150,
+                      color: yellowColor,
+                    ),
                   ),
-                ),
-                FutureBuilder(
-                    future: homeViewModel.displayUserProfile(context, FirebaseAuth.instance.currentUser!.phoneNumber!),
-                    builder: (context, snapshot) {
-                      if (snapshot.connectionState == ConnectionState.waiting)
-                        return Center(
-                        child: CircularProgressIndicator(),
-                        );
-                      else
-                        {
-                          var userModel = snapshot.data as UserModel;
+                  FutureBuilder(
+                      future: homeViewModel.displayUserProfile(context, FirebaseAuth.instance.currentUser!.phoneNumber!),
+                      builder: (context, snapshot) {
+                        if (snapshot.connectionState == ConnectionState.waiting)
                           return Center(
-                            child: Column(
-                              mainAxisAlignment: MainAxisAlignment.end,
-                              children: <Widget>[
-                                Container(
-                                  margin: EdgeInsets.only(
-                                    bottom: 10,
-                                  ),
-                                 // height: 140,
-                               //   width: 140,
-                                  // decoration: BoxDecoration(
-                                  //   shape: BoxShape.circle,
-                                  //     border: Border.all(color: greenColor, width: 8),
-                                  //     image: DecorationImage(
-                                  //       fit: BoxFit.cover,
-                                  //   image: NetworkImage(
-                                  //       'https://i1.sndcdn.com/artworks-000571067396-kjsbx8-t500x500.jpg'),
-                                  // )),
-                                  child: SizedBox(
-                                    height: 140,
-                                    width: 140,
-                                    child: Stack(
-                                      fit: StackFit.expand,
-                                      overflow: Overflow.visible,
-                                      children: [
-                                         CircleAvatar(
-                                          backgroundImage: NetworkImage('${userModel.profileImage}'),
-                                        ),
-                                        Positioned(
-                                          bottom: 0,
-                                          right: -12,
-                                          child: SizedBox(
-                                            height: 46,
-                                            width: 46,
-                                            child: FlatButton(
-                                              padding: EdgeInsets.zero,
-                                              shape: RoundedRectangleBorder(
-                                                borderRadius: BorderRadius.circular(50),
-                                                side: BorderSide(color: greenColor),
+                          child: CircularProgressIndicator(),
+                          );
+                        else
+                          {
+                            var userModel = snapshot.data as UserModel;
+                            return Center(
+                              child: Column(
+                                mainAxisAlignment: MainAxisAlignment.end,
+                                children: <Widget>[
+                                  Container(
+                                    margin: EdgeInsets.only(
+                                      bottom: 10,
+                                    ),
+                                    child: SizedBox(
+                                      height: 140,
+                                      width: 140,
+                                      child: Stack(
+                                        fit: StackFit.expand,
+                                        overflow: Overflow.visible,
+                                        children: [
+                                           CircleAvatar(
+                                            backgroundImage: NetworkImage('${userModel.profileImage}'),
+                                          ),
+                                          Positioned(
+                                            bottom: 0,
+                                            right: -12,
+                                            child: SizedBox(
+                                              height: 46,
+                                              width: 46,
+                                              child: FlatButton(
+                                                padding: EdgeInsets.zero,
+                                                shape: RoundedRectangleBorder(
+                                                  borderRadius: BorderRadius.circular(50),
+                                                  side: BorderSide(color: greenColor),
+                                                ),
+                                                color: Color(0xFFF5F6F9),
+                                                onPressed: () {
+                                                  chooseImage(context);
+                                                },
+                                                child: SvgPicture.asset(
+                                                    'assets/icons/camera.svg'),
                                               ),
-                                              color: Color(0xFFF5F6F9),
-                                              onPressed: () {
-                                                chooseImage(context);
-                                              },
-                                              child: SvgPicture.asset(
-                                                  'assets/icons/camera.svg'),
                                             ),
                                           ),
-                                        ),
-                                      ],
+                                        ],
+                                      ),
                                     ),
                                   ),
-                                ),
-                                Text('Staff Tomasz',
-                                    style: yellowTextStyle.copyWith(
-                                        fontSize: 18, fontWeight: medium)),
-                                SizedBox(
-                                  height: 5,
-                                ),
-                                Text('stafftomasz@gmail.com',
-                                    style: redTextStyle.copyWith(
-                                        fontSize: 15, fontWeight: regular)),
+                                  Text('${userModel.name}',
+                                      style: yellowTextStyle.copyWith(
+                                          fontSize: 18, fontWeight: medium)),
+                                  SizedBox(
+                                    height: 5,
+                                  ),
+                                  Text('${userModel.address}',
+                                      style: redTextStyle.copyWith(
+                                          fontSize: 15, fontWeight: regular)),
 
-                              ],
-                            ),
-                          );
-                        }
-                }),
-
+                                ],
+                              ),
+                            );
+                          }
+                  }),
+                ],
+              ),
+            ),
+            Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: <Widget>[
+                Padding(
+                  padding: const EdgeInsets.symmetric(horizontal: 18, vertical: 16),
+                  child: TextField(
+                    style: TextStyle(color: yellowColor,),
+                    decoration: InputDecoration(
+                      labelText: 'Change your name:',
+                      labelStyle: TextStyle(color: yellowColor,),
+                      prefixIcon: Icon(Icons.person, color: yellowColor,),
+                      enabledBorder: OutlineInputBorder(
+                        borderSide: BorderSide(color: yellowColor, width: 1),
+                      ),
+                      disabledBorder: OutlineInputBorder(
+                        borderSide: BorderSide(color: yellowColor, width: 1),
+                      ),
+                      focusedBorder: OutlineInputBorder(
+                        borderSide: BorderSide(color: yellowColor, width: 1),
+                      ),
+                    ),
+                    controller: nameController,
+                    enabled: true,
+                  ),
+                ),
+                Padding(
+                  padding: const EdgeInsets.symmetric(horizontal: 18, vertical: 16),
+                  child: TextField(
+                    style: TextStyle(color: yellowColor,),
+                    decoration: InputDecoration(
+                      labelText: 'Change your address:',
+                      labelStyle: TextStyle(color: yellowColor,),
+                      prefixIcon: Icon(Icons.mail, color: yellowColor,),
+                      enabledBorder: OutlineInputBorder(
+                        borderSide: BorderSide(color: yellowColor, width: 1),
+                      ),
+                      disabledBorder: OutlineInputBorder(
+                        borderSide: BorderSide(color: yellowColor, width: 1),
+                      ),
+                      focusedBorder: OutlineInputBorder(
+                        borderSide: BorderSide(color: yellowColor, width: 1),
+                      ),
+                    ),
+                    controller: addressController,
+                    enabled: true,
+                  ),
+                ),
+                Padding(
+                  padding: const EdgeInsets.symmetric(horizontal: 18, vertical: 16),
+                  child: TextField(
+                    style: TextStyle(color: yellowColor,),
+                    decoration: InputDecoration(
+                      labelText: 'My current location:',
+                      labelStyle: TextStyle(color: yellowColor,),
+                      prefixIcon: Icon(Icons.my_location, color: yellowColor,),
+                      enabledBorder: OutlineInputBorder(
+                        borderSide: BorderSide(color: yellowColor, width: 1),
+                      ),
+                      disabledBorder: OutlineInputBorder(
+                        borderSide: BorderSide(color: yellowColor, width: 1),
+                      ),
+                      focusedBorder: OutlineInputBorder(
+                        borderSide: BorderSide(color: yellowColor, width: 1),
+                      ),
+                    ),
+                      controller: locationController,
+                      readOnly: true,
+                  ),
+                ),
+                Container(
+                  width: 400,
+                  height: 40,
+                  alignment: Alignment.center,
+                  child: ElevatedButton.icon(
+                    label: Text('Get my current location', style: greenTextStyle.copyWith(fontSize: 14, fontWeight: medium)),
+                    icon: Icon(Icons.location_on, color: greenColor,),
+                    onPressed: () {
+                      getCurrentLocation();
+                    },
+                    style: ElevatedButton.styleFrom(
+                      primary: yellowColor,
+                      shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(30),
+                      ),
+                    ),
+                  ),
+                ),
               ],
             ),
-          ),
 
-               //Guzik do update
-          // SizedBox(
-          //   height: 5,
-          // ),
-          // ElevatedButton(
-          //   style: ElevatedButton.styleFrom(
-          //     primary: yellowColor,
-          //   ),
-          //   onPressed: (){
-          //    // updateProfile(context);
-          //   },
-          //   child: Text('Update', style:
-          //   greenTextStyle.copyWith(fontSize: 15, fontWeight: regular),),
-          // ),
-        ],
+
+                 //Guzik do update
+            SizedBox(
+              height: 5,
+            ),
+            ElevatedButton(
+              style: ElevatedButton.styleFrom(
+                primary: yellowColor,
+              ),
+              onPressed: (){
+                updateProfile(context);
+              },
+              child: Text('Update', style:
+              greenTextStyle.copyWith(fontSize: 15, fontWeight: regular),),
+            ),
+          ],
+        ),
       ),
     );
+  }
+
+  updateProfile(BuildContext context) async{
+    CollectionReference userRef =
+    FirebaseFirestore.instance.collection('User');
+
+    userRef.doc(FirebaseAuth.instance.currentUser!.phoneNumber).update({
+      'name': nameController.text,
+      'address': addressController.text,
+    });
+    setState(() {
+
+    });
   }
 
   chooseImage(BuildContext context)  async{
@@ -156,19 +274,6 @@ class _ProfileBodyState extends State<ProfileBody> {
 
     });
   }
-
-  // updateProfile(BuildContext context) async{
-  //   Map<String, dynamic> map = Map();
-  //   if (file != null){
-  //     String url = await uploadImage();
-  //     map['profileImage'] = url;
-  //   }
-  //   await FirebaseFirestore.instance.collection('User').doc(FirebaseAuth.instance.currentUser!.phoneNumber!).update(map);
-  //   setState(() {
-  //
-  //   });
-  // }
-
  Future<String> uploadImage() async{
     TaskSnapshot taskSnapshot = await FirebaseStorage.instance
         .ref()

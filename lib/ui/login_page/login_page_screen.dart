@@ -5,19 +5,10 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_app/fcm/fcm_notification_handler.dart';
 import 'package:flutter_app/ui/login_page/theme.dart';
-import 'package:flutter_app/utils/utils.dart';
+import 'package:flutter_app/time_description/time_description.dart';
 import 'package:flutter_app/view_model/main/main_view_model_imp.dart';
 
 import '../../main.dart';
-
-// class LoginPageScreen extends StatefulWidget {
-//   final scaffoldState = new GlobalKey<ScaffoldState>();
-//   final mainViewModel = MainViewModelImp();
-//
-//   @override
-//   LoginPageScreen createState() => LoginPageScreenState();
-//
-// }
 
 class LoginPageScreenState extends State<MyHomePage> {
 

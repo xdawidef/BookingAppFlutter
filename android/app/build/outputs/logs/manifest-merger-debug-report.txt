@@ -1,23 +1,25 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Dawid\AndroidStudioProjects\flutter_app2\android\app\src\main\AndroidManifest.xml:1:1-49:12
-INJECTED from C:\Users\Dawid\AndroidStudioProjects\flutter_app2\android\app\src\main\AndroidManifest.xml:1:1-49:12
-INJECTED from C:\Users\Dawid\AndroidStudioProjects\flutter_app2\android\app\src\main\AndroidManifest.xml:1:1-49:12
-INJECTED from C:\Users\Dawid\AndroidStudioProjects\flutter_app2\android\app\src\main\AndroidManifest.xml:1:1-49:12
-MERGED from C:\Users\Dawid\AndroidStudioProjects\flutter_app2\android\app\src\main\AndroidManifest.xml:1:1-49:12
-MERGED from [:cloud_firestore] C:\Users\Dawid\AndroidStudioProjects\flutter_app2\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-15:12
-MERGED from [:flutter_auth_ui] C:\Users\Dawid\AndroidStudioProjects\flutter_app2\build\flutter_auth_ui\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-7:12
-MERGED from [:firebase_auth] C:\Users\Dawid\AndroidStudioProjects\flutter_app2\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-15:12
-MERGED from [:firebase_storage] C:\Users\Dawid\AndroidStudioProjects\flutter_app2\build\firebase_storage\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-15:12
-MERGED from [:firebase_messaging] C:\Users\Dawid\AndroidStudioProjects\flutter_app2\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-46:12
-MERGED from [:firebase_core] C:\Users\Dawid\AndroidStudioProjects\flutter_app2\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-15:12
-MERGED from [:image_picker] C:\Users\Dawid\AndroidStudioProjects\flutter_app2\build\image_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-19:12
-MERGED from [:flutter_plugin_android_lifecycle] C:\Users\Dawid\AndroidStudioProjects\flutter_app2\build\flutter_plugin_android_lifecycle\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-7:12
-MERGED from [:flutter_local_notifications] C:\Users\Dawid\AndroidStudioProjects\flutter_app2\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-28:12
-MERGED from [:path_provider] C:\Users\Dawid\AndroidStudioProjects\flutter_app2\build\path_provider\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-7:12
-MERGED from [:image_cropper] C:\Users\Dawid\AndroidStudioProjects\flutter_app2\build\image_cropper\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-7:12
-MERGED from [:add_2_calendar] C:\Users\Dawid\AndroidStudioProjects\flutter_app2\build\add_2_calendar\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-7:12
-MERGED from [:flutter_image_compress] C:\Users\Dawid\AndroidStudioProjects\flutter_app2\build\flutter_image_compress\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-11:12
+ADDED from C:\Users\Dawid\AndroidStudioProjects\booking_app\android\app\src\main\AndroidManifest.xml:1:1-58:12
+INJECTED from C:\Users\Dawid\AndroidStudioProjects\booking_app\android\app\src\main\AndroidManifest.xml:1:1-58:12
+INJECTED from C:\Users\Dawid\AndroidStudioProjects\booking_app\android\app\src\main\AndroidManifest.xml:1:1-58:12
+INJECTED from C:\Users\Dawid\AndroidStudioProjects\booking_app\android\app\src\main\AndroidManifest.xml:1:1-58:12
+MERGED from C:\Users\Dawid\AndroidStudioProjects\booking_app\android\app\src\main\AndroidManifest.xml:1:1-58:12
+MERGED from [:cloud_firestore] C:\Users\Dawid\AndroidStudioProjects\booking_app\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-15:12
+MERGED from [:flutter_auth_ui] C:\Users\Dawid\AndroidStudioProjects\booking_app\build\flutter_auth_ui\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [:firebase_auth] C:\Users\Dawid\AndroidStudioProjects\booking_app\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-15:12
+MERGED from [:firebase_storage] C:\Users\Dawid\AndroidStudioProjects\booking_app\build\firebase_storage\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-15:12
+MERGED from [:firebase_messaging] C:\Users\Dawid\AndroidStudioProjects\booking_app\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-46:12
+MERGED from [:firebase_core] C:\Users\Dawid\AndroidStudioProjects\booking_app\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-15:12
+MERGED from [:geolocator_android] C:\Users\Dawid\AndroidStudioProjects\booking_app\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [:image_picker] C:\Users\Dawid\AndroidStudioProjects\booking_app\build\image_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-19:12
+MERGED from [:flutter_plugin_android_lifecycle] C:\Users\Dawid\AndroidStudioProjects\booking_app\build\flutter_plugin_android_lifecycle\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [:flutter_local_notifications] C:\Users\Dawid\AndroidStudioProjects\booking_app\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-28:12
+MERGED from [:path_provider] C:\Users\Dawid\AndroidStudioProjects\booking_app\build\path_provider\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [:image_cropper] C:\Users\Dawid\AndroidStudioProjects\booking_app\build\image_cropper\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [:geocoding] C:\Users\Dawid\AndroidStudioProjects\booking_app\build\geocoding\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [:add_2_calendar] C:\Users\Dawid\AndroidStudioProjects\booking_app\build\add_2_calendar\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [:flutter_image_compress] C:\Users\Dawid\AndroidStudioProjects\booking_app\build\flutter_image_compress\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.multidex:multidex:2.0.1] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\7d84be2e704ccce51c53e14238b34832\multidex-2.0.1\AndroidManifest.xml:17:1-22:12
 MERGED from [com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\45acada17b1bb68a0a3ff125eed7adbb\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:2:1-109:12
 MERGED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\3987dc8aae8d8dcf525d9aca52b542d3\jetified-firebase-auth-21.0.1\AndroidManifest.xml:17:1-83:12
@@ -39,19 +41,21 @@ MERGED from [androidx.heifwriter:heifwriter:1.0.0] C:\Users\Dawid\.gradle\caches
 MERGED from [com.google.android.material:material:1.2.1] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\72e3e63f6b5355cfd7499b7892c6a42d\material-1.2.1\AndroidManifest.xml:17:1-24:12
 MERGED from [me.zhanghai.android.materialprogressbar:library:1.6.1] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\cd6da56553e32c591ab31d66a3be202c\jetified-library-1.6.1\AndroidManifest.xml:6:1-15:12
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\1de6d64a671ee551f4fc19e20453f259\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [com.github.yalantis:ucrop:2.2.7] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\824b8ec3b3a7db16495a299f6cf6cf5d\jetified-ucrop-2.2.7\AndroidManifest.xml:2:1-11:12
-MERGED from [androidx.exifinterface:exifinterface:1.3.2] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\327e2953d1cdd2bde212b5378231e1d4\exifinterface-1.3.2\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media:media:1.1.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\580571fa19e5535e47a9ef11ba1b1be2\media-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\459900d4f56b50c45a5b91629005ba17\constraintlayout-2.0.4\AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.yalantis:ucrop:2.2.7] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\824b8ec3b3a7db16495a299f6cf6cf5d\jetified-ucrop-2.2.7\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat:1.3.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\31d3e43256e6a559685ba91dd113c1b2\appcompat-1.3.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.transition:transition:1.4.1] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\25871caabe0c56d0fd649c987fd5a8ba\transition-1.4.1\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\e139795f745f76b909964f46f3b7f656\lifecycle-extensions-2.2.0\AndroidManifest.xml:17:1-27:12
 MERGED from [com.google.android.gms:play-services-auth:19.0.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\2b16b4fffff13f0944827ca05be05543\jetified-play-services-auth-19.0.0\AndroidManifest.xml:17:1-40:12
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\e139795f745f76b909964f46f3b7f656\lifecycle-extensions-2.2.0\AndroidManifest.xml:17:1-27:12
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\40a9840ac650edf1496f25e972ffdcf2\jetified-viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-location:17.0.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\bbc1da31dfb4c9727e5d46580eb82072\jetified-play-services-location-17.0.0\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.gms:play-services-auth-base:17.0.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\f640ddede10339ae3905e8354b34e060\jetified-play-services-auth-base-17.0.0\AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\853795baf6086ddb798731e5e18c7806\jetified-play-services-auth-api-phone-17.4.0\AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\8d256c9f690a3bb669478358f3a32599\jetified-play-services-safetynet-17.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.firebase:firebase-database-collection:18.0.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\7e11b3687e99ac7736f515b12866df38\jetified-firebase-database-collection-18.0.0\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\719d0d1d259f46dcabd1b57fb0263495\jetified-play-services-base-17.1.0\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\54e240951ac9b1fe8d5a08f841c5eff3\jetified-play-services-places-placereport-17.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\4d0d77feb53aeca040378bf4dc276124\jetified-play-services-cloud-messaging-17.0.0\AndroidManifest.xml:2:1-13:12
 MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\80a2ff04939309e014ed5b16db53b579\jetified-firebase-iid-interop-17.1.0\AndroidManifest.xml:2:1-10:12
 MERGED from [com.google.firebase:firebase-installations-interop:17.0.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\8ed798410d6634ea727be7bea712865a\jetified-firebase-installations-interop-17.0.0\AndroidManifest.xml:15:1-23:12
@@ -59,15 +63,12 @@ MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\Dawid\.
 MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\f6f597acdc8916270a44a6668d1bcd85\jetified-firebase-measurement-connector-19.0.0\AndroidManifest.xml:17:1-25:12
 MERGED from [com.google.android.gms:play-services-basement:17.1.1] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\2f983798772cd78949c1cadcd96223a2\jetified-play-services-basement-17.1.1\AndroidManifest.xml:17:1-28:12
 MERGED from [androidx.fragment:fragment:1.3.4] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\0abdea55e8914ce8bc5350aa8c29f9da\fragment-1.3.4\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.activity:activity:1.2.3] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\5453c463a298511158730f1bb288e1d5\jetified-activity-1.2.3\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\2815d251804743aaf2ac56ed8b8cf69f\jetified-lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\f4238d2c5be2658b83d3290b29ced28c\jetified-savedstate-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.media:media:1.1.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\580571fa19e5535e47a9ef11ba1b1be2\media-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\a497494132b0c262aa3f0ac059daef6d\loader-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\a4271eab87dc21f412b79b22bd4d1044\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat-resources:1.3.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\f6fb69c704ed4f59822cccf900847af3\jetified-appcompat-resources-1.3.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\d0cc7b1837cc3b861019edf00e638846\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\9a66317eb68650bead1fad47977f2f0b\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\a497494132b0c262aa3f0ac059daef6d\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.2.3] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\5453c463a298511158730f1bb288e1d5\jetified-activity-1.2.3\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\2d36857d684bcacae1f12a2823a67e1c\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\fb3df3e96789a269a5a3bcb6120ada1c\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\25254167046cec6c178e4ed6cd1325e2\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
@@ -75,7 +76,11 @@ MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Dawid\
 MERGED from [androidx.customview:customview:1.0.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\11a06e433aa8e004116963abfb933e68\customview-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\2fcc1ac466904c4c96893b5faffa9a4e\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\f0ca3c5c27db01d251a39450720c9201\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.core:core:1.5.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\1e5b47970031e419d7f1fed7851ecd02\core-1.5.0\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.core:core:1.6.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\1da16067942dcd82bc6630b883359221\core-1.6.0\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\08da64834b1e358055b9c1e5d87f83fa\jetified-tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.exifinterface:exifinterface:1.3.2] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\327e2953d1cdd2bde212b5378231e1d4\exifinterface-1.3.2\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\2815d251804743aaf2ac56ed8b8cf69f\jetified-lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\f4238d2c5be2658b83d3290b29ced28c\jetified-savedstate-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\ba9589657aa700c21f4085cb613956e0\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\ae35398bbd30d369d0be2ffe80a51124\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\9370273134b3fde1fdc34926b0a29519\lifecycle-livedata-2.2.0\AndroidManifest.xml:17:1-24:12
@@ -93,64 +98,71 @@ MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Dawid\.gradle\
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\23e40c44680f0f12591fa51da4401748\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\6434710a41291fb6f4ef88d0dbba11a4\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\ce7f405bd16ff0cea5f67fec90b847d9\jetified-firebase-encoders-json-18.0.0\AndroidManifest.xml:15:1-23:12
-MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\08da64834b1e358055b9c1e5d87f83fa\jetified-tracing-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [io.grpc:grpc-android:1.41.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\fb4063f957c6a9ae7f09ca1313c9d4a8\jetified-grpc-android-1.41.0\AndroidManifest.xml:2:1-13:12
 MERGED from [com.jakewharton.threetenabp:threetenabp:1.2.3] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\9ffbb065298b1797fb578ab6ac7c5d54\jetified-threetenabp-1.2.3\AndroidManifest.xml:2:1-9:12
-MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\daf47bb9fa4d013c40ebda3ff35f97ab\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\39f1e169bd9b26d6bbf1735711d6928f\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\64559bf0da63608a99a63b20369c3c55\jetified-protolite-well-known-types-18.0.0\AndroidManifest.xml:2:1-11:12
-INJECTED from C:\Users\Dawid\AndroidStudioProjects\flutter_app2\android\app\src\debug\AndroidManifest.xml:1:1-7:12
-INJECTED from C:\Users\Dawid\AndroidStudioProjects\flutter_app2\android\app\src\debug\AndroidManifest.xml:1:1-7:12
-INJECTED from C:\Users\Dawid\AndroidStudioProjects\flutter_app2\android\app\src\debug\AndroidManifest.xml:1:1-7:12
+INJECTED from C:\Users\Dawid\AndroidStudioProjects\booking_app\android\app\src\debug\AndroidManifest.xml:1:1-7:12
+INJECTED from C:\Users\Dawid\AndroidStudioProjects\booking_app\android\app\src\debug\AndroidManifest.xml:1:1-7:12
+INJECTED from C:\Users\Dawid\AndroidStudioProjects\booking_app\android\app\src\debug\AndroidManifest.xml:1:1-7:12
 	package
-		ADDED from C:\Users\Dawid\AndroidStudioProjects\flutter_app2\android\app\src\main\AndroidManifest.xml:2:5-38
-		INJECTED from C:\Users\Dawid\AndroidStudioProjects\flutter_app2\android\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Dawid\AndroidStudioProjects\flutter_app2\android\app\src\debug\AndroidManifest.xml
+		ADDED from C:\Users\Dawid\AndroidStudioProjects\booking_app\android\app\src\main\AndroidManifest.xml:2:5-38
+		INJECTED from C:\Users\Dawid\AndroidStudioProjects\booking_app\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Dawid\AndroidStudioProjects\booking_app\android\app\src\debug\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\Dawid\AndroidStudioProjects\flutter_app2\android\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Dawid\AndroidStudioProjects\flutter_app2\android\app\src\main\AndroidManifest.xml:1:1-49:12
-		INJECTED from C:\Users\Dawid\AndroidStudioProjects\flutter_app2\android\app\src\debug\AndroidManifest.xml
+		INJECTED from C:\Users\Dawid\AndroidStudioProjects\booking_app\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Dawid\AndroidStudioProjects\booking_app\android\app\src\main\AndroidManifest.xml:1:1-58:12
+		INJECTED from C:\Users\Dawid\AndroidStudioProjects\booking_app\android\app\src\debug\AndroidManifest.xml
 	android:versionCode
-		INJECTED from C:\Users\Dawid\AndroidStudioProjects\flutter_app2\android\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Dawid\AndroidStudioProjects\flutter_app2\android\app\src\main\AndroidManifest.xml:1:1-49:12
-		INJECTED from C:\Users\Dawid\AndroidStudioProjects\flutter_app2\android\app\src\debug\AndroidManifest.xml
+		INJECTED from C:\Users\Dawid\AndroidStudioProjects\booking_app\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Dawid\AndroidStudioProjects\booking_app\android\app\src\main\AndroidManifest.xml:1:1-58:12
+		INJECTED from C:\Users\Dawid\AndroidStudioProjects\booking_app\android\app\src\debug\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\Dawid\AndroidStudioProjects\flutter_app2\android\app\src\main\AndroidManifest.xml:1:11-69
+		ADDED from C:\Users\Dawid\AndroidStudioProjects\booking_app\android\app\src\main\AndroidManifest.xml:1:11-69
 uses-permission#android.permission.WRITE_CALENDAR
-ADDED from C:\Users\Dawid\AndroidStudioProjects\flutter_app2\android\app\src\main\AndroidManifest.xml:3:5-73
+ADDED from C:\Users\Dawid\AndroidStudioProjects\booking_app\android\app\src\main\AndroidManifest.xml:3:5-73
 	android:name
-		ADDED from C:\Users\Dawid\AndroidStudioProjects\flutter_app2\android\app\src\main\AndroidManifest.xml:3:22-70
+		ADDED from C:\Users\Dawid\AndroidStudioProjects\booking_app\android\app\src\main\AndroidManifest.xml:3:22-70
 uses-permission#android.permission.READ_CALENDAR
-ADDED from C:\Users\Dawid\AndroidStudioProjects\flutter_app2\android\app\src\main\AndroidManifest.xml:4:5-72
+ADDED from C:\Users\Dawid\AndroidStudioProjects\booking_app\android\app\src\main\AndroidManifest.xml:4:5-72
 	android:name
-		ADDED from C:\Users\Dawid\AndroidStudioProjects\flutter_app2\android\app\src\main\AndroidManifest.xml:4:22-69
+		ADDED from C:\Users\Dawid\AndroidStudioProjects\booking_app\android\app\src\main\AndroidManifest.xml:4:22-69
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\Dawid\AndroidStudioProjects\booking_app\android\app\src\main\AndroidManifest.xml:5:5-79
+	android:name
+		ADDED from C:\Users\Dawid\AndroidStudioProjects\booking_app\android\app\src\main\AndroidManifest.xml:5:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from C:\Users\Dawid\AndroidStudioProjects\booking_app\android\app\src\main\AndroidManifest.xml:6:5-81
+	android:name
+		ADDED from C:\Users\Dawid\AndroidStudioProjects\booking_app\android\app\src\main\AndroidManifest.xml:6:22-78
 queries
-ADDED from C:\Users\Dawid\AndroidStudioProjects\flutter_app2\android\app\src\main\AndroidManifest.xml:5:5-10:15
+ADDED from C:\Users\Dawid\AndroidStudioProjects\booking_app\android\app\src\main\AndroidManifest.xml:7:5-12:15
 intent#action:name:android.intent.action.INSERT+data:mimeType:vnd.android.cursor.item/event
-ADDED from C:\Users\Dawid\AndroidStudioProjects\flutter_app2\android\app\src\main\AndroidManifest.xml:6:9-9:18
+ADDED from C:\Users\Dawid\AndroidStudioProjects\booking_app\android\app\src\main\AndroidManifest.xml:8:9-11:18
 action#android.intent.action.INSERT
-ADDED from C:\Users\Dawid\AndroidStudioProjects\flutter_app2\android\app\src\main\AndroidManifest.xml:7:13-67
+ADDED from C:\Users\Dawid\AndroidStudioProjects\booking_app\android\app\src\main\AndroidManifest.xml:9:13-67
 	android:name
-		ADDED from C:\Users\Dawid\AndroidStudioProjects\flutter_app2\android\app\src\main\AndroidManifest.xml:7:21-64
+		ADDED from C:\Users\Dawid\AndroidStudioProjects\booking_app\android\app\src\main\AndroidManifest.xml:9:21-64
 data
-ADDED from C:\Users\Dawid\AndroidStudioProjects\flutter_app2\android\app\src\main\AndroidManifest.xml:8:13-70
+ADDED from C:\Users\Dawid\AndroidStudioProjects\booking_app\android\app\src\main\AndroidManifest.xml:10:13-70
 	android:mimeType
-		ADDED from C:\Users\Dawid\AndroidStudioProjects\flutter_app2\android\app\src\main\AndroidManifest.xml:8:19-67
+		ADDED from C:\Users\Dawid\AndroidStudioProjects\booking_app\android\app\src\main\AndroidManifest.xml:10:19-67
 application
-ADDED from C:\Users\Dawid\AndroidStudioProjects\flutter_app2\android\app\src\main\AndroidManifest.xml:11:4-48:19
-MERGED from [:cloud_firestore] C:\Users\Dawid\AndroidStudioProjects\flutter_app2\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:7:5-13:19
-MERGED from [:cloud_firestore] C:\Users\Dawid\AndroidStudioProjects\flutter_app2\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:7:5-13:19
-MERGED from [:firebase_auth] C:\Users\Dawid\AndroidStudioProjects\flutter_app2\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:7:5-13:19
-MERGED from [:firebase_auth] C:\Users\Dawid\AndroidStudioProjects\flutter_app2\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:7:5-13:19
-MERGED from [:firebase_storage] C:\Users\Dawid\AndroidStudioProjects\flutter_app2\build\firebase_storage\intermediates\merged_manifest\debug\AndroidManifest.xml:7:5-13:19
-MERGED from [:firebase_storage] C:\Users\Dawid\AndroidStudioProjects\flutter_app2\build\firebase_storage\intermediates\merged_manifest\debug\AndroidManifest.xml:7:5-13:19
-MERGED from [:firebase_messaging] C:\Users\Dawid\AndroidStudioProjects\flutter_app2\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:11:5-44:19
-MERGED from [:firebase_messaging] C:\Users\Dawid\AndroidStudioProjects\flutter_app2\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:11:5-44:19
-MERGED from [:firebase_core] C:\Users\Dawid\AndroidStudioProjects\flutter_app2\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:7:5-13:19
-MERGED from [:firebase_core] C:\Users\Dawid\AndroidStudioProjects\flutter_app2\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:7:5-13:19
-MERGED from [:image_picker] C:\Users\Dawid\AndroidStudioProjects\flutter_app2\build\image_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:7:5-17:19
-MERGED from [:image_picker] C:\Users\Dawid\AndroidStudioProjects\flutter_app2\build\image_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:7:5-17:19
-MERGED from [:flutter_local_notifications] C:\Users\Dawid\AndroidStudioProjects\flutter_app2\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:12:5-26:19
-MERGED from [:flutter_local_notifications] C:\Users\Dawid\AndroidStudioProjects\flutter_app2\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:12:5-26:19
+ADDED from C:\Users\Dawid\AndroidStudioProjects\booking_app\android\app\src\main\AndroidManifest.xml:13:4-57:19
+MERGED from [:cloud_firestore] C:\Users\Dawid\AndroidStudioProjects\booking_app\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:7:5-13:19
+MERGED from [:cloud_firestore] C:\Users\Dawid\AndroidStudioProjects\booking_app\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_auth] C:\Users\Dawid\AndroidStudioProjects\booking_app\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_auth] C:\Users\Dawid\AndroidStudioProjects\booking_app\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_storage] C:\Users\Dawid\AndroidStudioProjects\booking_app\build\firebase_storage\intermediates\merged_manifest\debug\AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_storage] C:\Users\Dawid\AndroidStudioProjects\booking_app\build\firebase_storage\intermediates\merged_manifest\debug\AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_messaging] C:\Users\Dawid\AndroidStudioProjects\booking_app\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:11:5-44:19
+MERGED from [:firebase_messaging] C:\Users\Dawid\AndroidStudioProjects\booking_app\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:11:5-44:19
+MERGED from [:firebase_core] C:\Users\Dawid\AndroidStudioProjects\booking_app\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_core] C:\Users\Dawid\AndroidStudioProjects\booking_app\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:7:5-13:19
+MERGED from [:image_picker] C:\Users\Dawid\AndroidStudioProjects\booking_app\build\image_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:7:5-17:19
+MERGED from [:image_picker] C:\Users\Dawid\AndroidStudioProjects\booking_app\build\image_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:7:5-17:19
+MERGED from [:flutter_local_notifications] C:\Users\Dawid\AndroidStudioProjects\booking_app\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:12:5-26:19
+MERGED from [:flutter_local_notifications] C:\Users\Dawid\AndroidStudioProjects\booking_app\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:12:5-26:19
 MERGED from [com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\45acada17b1bb68a0a3ff125eed7adbb\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:15:5-107:19
 MERGED from [com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\45acada17b1bb68a0a3ff125eed7adbb\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:15:5-107:19
 MERGED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\3987dc8aae8d8dcf525d9aca52b542d3\jetified-firebase-auth-21.0.1\AndroidManifest.xml:26:5-81:19
@@ -177,14 +189,18 @@ MERGED from [com.google.android.material:material:1.2.1] C:\Users\Dawid\.gradle\
 MERGED from [com.google.android.material:material:1.2.1] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\72e3e63f6b5355cfd7499b7892c6a42d\material-1.2.1\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\459900d4f56b50c45a5b91629005ba17\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\459900d4f56b50c45a5b91629005ba17\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
-MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\e139795f745f76b909964f46f3b7f656\lifecycle-extensions-2.2.0\AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\e139795f745f76b909964f46f3b7f656\lifecycle-extensions-2.2.0\AndroidManifest.xml:24:5-25:19
 MERGED from [com.google.android.gms:play-services-auth:19.0.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\2b16b4fffff13f0944827ca05be05543\jetified-play-services-auth-19.0.0\AndroidManifest.xml:22:5-38:19
 MERGED from [com.google.android.gms:play-services-auth:19.0.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\2b16b4fffff13f0944827ca05be05543\jetified-play-services-auth-19.0.0\AndroidManifest.xml:22:5-38:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\e139795f745f76b909964f46f3b7f656\lifecycle-extensions-2.2.0\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\e139795f745f76b909964f46f3b7f656\lifecycle-extensions-2.2.0\AndroidManifest.xml:24:5-25:19
+MERGED from [com.google.android.gms:play-services-location:17.0.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\bbc1da31dfb4c9727e5d46580eb82072\jetified-play-services-location-17.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:17.0.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\bbc1da31dfb4c9727e5d46580eb82072\jetified-play-services-location-17.0.0\AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\8d256c9f690a3bb669478358f3a32599\jetified-play-services-safetynet-17.0.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\8d256c9f690a3bb669478358f3a32599\jetified-play-services-safetynet-17.0.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\719d0d1d259f46dcabd1b57fb0263495\jetified-play-services-base-17.1.0\AndroidManifest.xml:22:5-27:19
 MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\719d0d1d259f46dcabd1b57fb0263495\jetified-play-services-base-17.1.0\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\54e240951ac9b1fe8d5a08f841c5eff3\jetified-play-services-places-placereport-17.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\54e240951ac9b1fe8d5a08f841c5eff3\jetified-play-services-places-placereport-17.0.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\80a2ff04939309e014ed5b16db53b579\jetified-firebase-iid-interop-17.1.0\AndroidManifest.xml:7:5-8:19
 MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\80a2ff04939309e014ed5b16db53b579\jetified-firebase-iid-interop-17.1.0\AndroidManifest.xml:7:5-8:19
 MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\c5c09fc7f6e1383581431587d6f95465\jetified-play-services-tasks-17.0.0\AndroidManifest.xml:7:5-20
@@ -193,8 +209,8 @@ MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users
 MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\f6f597acdc8916270a44a6668d1bcd85\jetified-firebase-measurement-connector-19.0.0\AndroidManifest.xml:22:5-23:19
 MERGED from [com.google.android.gms:play-services-basement:17.1.1] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\2f983798772cd78949c1cadcd96223a2\jetified-play-services-basement-17.1.1\AndroidManifest.xml:22:5-26:19
 MERGED from [com.google.android.gms:play-services-basement:17.1.1] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\2f983798772cd78949c1cadcd96223a2\jetified-play-services-basement-17.1.1\AndroidManifest.xml:22:5-26:19
-MERGED from [androidx.core:core:1.5.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\1e5b47970031e419d7f1fed7851ecd02\core-1.5.0\AndroidManifest.xml:24:5-89
-MERGED from [androidx.core:core:1.5.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\1e5b47970031e419d7f1fed7851ecd02\core-1.5.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.6.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\1da16067942dcd82bc6630b883359221\core-1.6.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.6.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\1da16067942dcd82bc6630b883359221\core-1.6.0\AndroidManifest.xml:24:5-89
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\ba9589657aa700c21f4085cb613956e0\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\ba9589657aa700c21f4085cb613956e0\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\379a7dd739e1f5e796a6e2ee017625ef\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:24:5-30:19
@@ -206,83 +222,99 @@ MERGED from [com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\
 MERGED from [com.jakewharton.threetenabp:threetenabp:1.2.3] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\9ffbb065298b1797fb578ab6ac7c5d54\jetified-threetenabp-1.2.3\AndroidManifest.xml:7:5-20
 MERGED from [com.jakewharton.threetenabp:threetenabp:1.2.3] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\9ffbb065298b1797fb578ab6ac7c5d54\jetified-threetenabp-1.2.3\AndroidManifest.xml:7:5-20
 	android:appComponentFactory
-		ADDED from [androidx.core:core:1.5.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\1e5b47970031e419d7f1fed7851ecd02\core-1.5.0\AndroidManifest.xml:24:18-86
+		ADDED from [androidx.core:core:1.6.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\1da16067942dcd82bc6630b883359221\core-1.6.0\AndroidManifest.xml:24:18-86
 	android:label
-		ADDED from C:\Users\Dawid\AndroidStudioProjects\flutter_app2\android\app\src\main\AndroidManifest.xml:12:9-36
+		ADDED from C:\Users\Dawid\AndroidStudioProjects\booking_app\android\app\src\main\AndroidManifest.xml:14:9-44
 	android:icon
-		ADDED from C:\Users\Dawid\AndroidStudioProjects\flutter_app2\android\app\src\main\AndroidManifest.xml:13:9-43
+		ADDED from C:\Users\Dawid\AndroidStudioProjects\booking_app\android\app\src\main\AndroidManifest.xml:15:9-43
 activity#com.example.flutter_app.MainActivity
-ADDED from C:\Users\Dawid\AndroidStudioProjects\flutter_app2\android\app\src\main\AndroidManifest.xml:14:9-42:20
+ADDED from C:\Users\Dawid\AndroidStudioProjects\booking_app\android\app\src\main\AndroidManifest.xml:16:9-51:20
 	android:launchMode
-		ADDED from C:\Users\Dawid\AndroidStudioProjects\flutter_app2\android\app\src\main\AndroidManifest.xml:16:13-43
+		ADDED from C:\Users\Dawid\AndroidStudioProjects\booking_app\android\app\src\main\AndroidManifest.xml:18:13-43
 	android:hardwareAccelerated
-		ADDED from C:\Users\Dawid\AndroidStudioProjects\flutter_app2\android\app\src\main\AndroidManifest.xml:19:13-47
+		ADDED from C:\Users\Dawid\AndroidStudioProjects\booking_app\android\app\src\main\AndroidManifest.xml:21:13-47
 	android:windowSoftInputMode
-		ADDED from C:\Users\Dawid\AndroidStudioProjects\flutter_app2\android\app\src\main\AndroidManifest.xml:20:13-55
+		ADDED from C:\Users\Dawid\AndroidStudioProjects\booking_app\android\app\src\main\AndroidManifest.xml:22:13-55
 	android:configChanges
-		ADDED from C:\Users\Dawid\AndroidStudioProjects\flutter_app2\android\app\src\main\AndroidManifest.xml:18:13-163
+		ADDED from C:\Users\Dawid\AndroidStudioProjects\booking_app\android\app\src\main\AndroidManifest.xml:20:13-163
 	android:theme
-		ADDED from C:\Users\Dawid\AndroidStudioProjects\flutter_app2\android\app\src\main\AndroidManifest.xml:17:13-47
+		ADDED from C:\Users\Dawid\AndroidStudioProjects\booking_app\android\app\src\main\AndroidManifest.xml:19:13-47
 	android:name
-		ADDED from C:\Users\Dawid\AndroidStudioProjects\flutter_app2\android\app\src\main\AndroidManifest.xml:15:13-41
+		ADDED from C:\Users\Dawid\AndroidStudioProjects\booking_app\android\app\src\main\AndroidManifest.xml:17:13-41
 meta-data#io.flutter.embedding.android.NormalTheme
-ADDED from C:\Users\Dawid\AndroidStudioProjects\flutter_app2\android\app\src\main\AndroidManifest.xml:25:13-28:17
+ADDED from C:\Users\Dawid\AndroidStudioProjects\booking_app\android\app\src\main\AndroidManifest.xml:27:13-30:17
 	android:resource
-		ADDED from C:\Users\Dawid\AndroidStudioProjects\flutter_app2\android\app\src\main\AndroidManifest.xml:27:15-52
+		ADDED from C:\Users\Dawid\AndroidStudioProjects\booking_app\android\app\src\main\AndroidManifest.xml:29:15-52
 	android:name
-		ADDED from C:\Users\Dawid\AndroidStudioProjects\flutter_app2\android\app\src\main\AndroidManifest.xml:26:15-70
+		ADDED from C:\Users\Dawid\AndroidStudioProjects\booking_app\android\app\src\main\AndroidManifest.xml:28:15-70
+meta-data#com.google.firebase.messaging.default_notification_icon
+ADDED from C:\Users\Dawid\AndroidStudioProjects\booking_app\android\app\src\main\AndroidManifest.xml:32:13-34:73
+	android:resource
+		ADDED from C:\Users\Dawid\AndroidStudioProjects\booking_app\android\app\src\main\AndroidManifest.xml:34:17-70
+	android:name
+		ADDED from C:\Users\Dawid\AndroidStudioProjects\booking_app\android\app\src\main\AndroidManifest.xml:33:17-87
+meta-data#com.google.firebase.messaging.default_notification_color
+ADDED from C:\Users\Dawid\AndroidStudioProjects\booking_app\android\app\src\main\AndroidManifest.xml:35:13-37:59
+	android:resource
+		ADDED from C:\Users\Dawid\AndroidStudioProjects\booking_app\android\app\src\main\AndroidManifest.xml:37:17-56
+	android:name
+		ADDED from C:\Users\Dawid\AndroidStudioProjects\booking_app\android\app\src\main\AndroidManifest.xml:36:17-88
 meta-data#io.flutter.embedding.android.SplashScreenDrawable
-ADDED from C:\Users\Dawid\AndroidStudioProjects\flutter_app2\android\app\src\main\AndroidManifest.xml:34:13-37:17
+ADDED from C:\Users\Dawid\AndroidStudioProjects\booking_app\android\app\src\main\AndroidManifest.xml:43:13-46:17
 	android:resource
-		ADDED from C:\Users\Dawid\AndroidStudioProjects\flutter_app2\android\app\src\main\AndroidManifest.xml:36:15-61
+		ADDED from C:\Users\Dawid\AndroidStudioProjects\booking_app\android\app\src\main\AndroidManifest.xml:45:15-61
 	android:name
-		ADDED from C:\Users\Dawid\AndroidStudioProjects\flutter_app2\android\app\src\main\AndroidManifest.xml:35:15-79
+		ADDED from C:\Users\Dawid\AndroidStudioProjects\booking_app\android\app\src\main\AndroidManifest.xml:44:15-79
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\Dawid\AndroidStudioProjects\flutter_app2\android\app\src\main\AndroidManifest.xml:38:13-41:29
+ADDED from C:\Users\Dawid\AndroidStudioProjects\booking_app\android\app\src\main\AndroidManifest.xml:47:13-50:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Dawid\AndroidStudioProjects\flutter_app2\android\app\src\main\AndroidManifest.xml:39:17-68
+ADDED from C:\Users\Dawid\AndroidStudioProjects\booking_app\android\app\src\main\AndroidManifest.xml:48:17-68
 	android:name
-		ADDED from C:\Users\Dawid\AndroidStudioProjects\flutter_app2\android\app\src\main\AndroidManifest.xml:39:25-66
+		ADDED from C:\Users\Dawid\AndroidStudioProjects\booking_app\android\app\src\main\AndroidManifest.xml:48:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Dawid\AndroidStudioProjects\flutter_app2\android\app\src\main\AndroidManifest.xml:40:17-76
+ADDED from C:\Users\Dawid\AndroidStudioProjects\booking_app\android\app\src\main\AndroidManifest.xml:49:17-76
 	android:name
-		ADDED from C:\Users\Dawid\AndroidStudioProjects\flutter_app2\android\app\src\main\AndroidManifest.xml:40:27-74
+		ADDED from C:\Users\Dawid\AndroidStudioProjects\booking_app\android\app\src\main\AndroidManifest.xml:49:27-74
 meta-data#flutterEmbedding
-ADDED from C:\Users\Dawid\AndroidStudioProjects\flutter_app2\android\app\src\main\AndroidManifest.xml:45:9-47:33
+ADDED from C:\Users\Dawid\AndroidStudioProjects\booking_app\android\app\src\main\AndroidManifest.xml:54:9-56:33
 	android:value
-		ADDED from C:\Users\Dawid\AndroidStudioProjects\flutter_app2\android\app\src\main\AndroidManifest.xml:47:13-30
+		ADDED from C:\Users\Dawid\AndroidStudioProjects\booking_app\android\app\src\main\AndroidManifest.xml:56:13-30
 	android:name
-		ADDED from C:\Users\Dawid\AndroidStudioProjects\flutter_app2\android\app\src\main\AndroidManifest.xml:46:13-44
+		ADDED from C:\Users\Dawid\AndroidStudioProjects\booking_app\android\app\src\main\AndroidManifest.xml:55:13-44
 uses-sdk
-INJECTED from C:\Users\Dawid\AndroidStudioProjects\flutter_app2\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\Dawid\AndroidStudioProjects\flutter_app2\android\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\Dawid\AndroidStudioProjects\flutter_app2\android\app\src\main\AndroidManifest.xml
-MERGED from [:cloud_firestore] C:\Users\Dawid\AndroidStudioProjects\flutter_app2\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:cloud_firestore] C:\Users\Dawid\AndroidStudioProjects\flutter_app2\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:flutter_auth_ui] C:\Users\Dawid\AndroidStudioProjects\flutter_app2\build\flutter_auth_ui\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:flutter_auth_ui] C:\Users\Dawid\AndroidStudioProjects\flutter_app2\build\flutter_auth_ui\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:firebase_auth] C:\Users\Dawid\AndroidStudioProjects\flutter_app2\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:firebase_auth] C:\Users\Dawid\AndroidStudioProjects\flutter_app2\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:firebase_storage] C:\Users\Dawid\AndroidStudioProjects\flutter_app2\build\firebase_storage\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:firebase_storage] C:\Users\Dawid\AndroidStudioProjects\flutter_app2\build\firebase_storage\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:firebase_messaging] C:\Users\Dawid\AndroidStudioProjects\flutter_app2\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:firebase_messaging] C:\Users\Dawid\AndroidStudioProjects\flutter_app2\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:firebase_core] C:\Users\Dawid\AndroidStudioProjects\flutter_app2\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:firebase_core] C:\Users\Dawid\AndroidStudioProjects\flutter_app2\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:image_picker] C:\Users\Dawid\AndroidStudioProjects\flutter_app2\build\image_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:image_picker] C:\Users\Dawid\AndroidStudioProjects\flutter_app2\build\image_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:flutter_plugin_android_lifecycle] C:\Users\Dawid\AndroidStudioProjects\flutter_app2\build\flutter_plugin_android_lifecycle\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:flutter_plugin_android_lifecycle] C:\Users\Dawid\AndroidStudioProjects\flutter_app2\build\flutter_plugin_android_lifecycle\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:flutter_local_notifications] C:\Users\Dawid\AndroidStudioProjects\flutter_app2\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:flutter_local_notifications] C:\Users\Dawid\AndroidStudioProjects\flutter_app2\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:path_provider] C:\Users\Dawid\AndroidStudioProjects\flutter_app2\build\path_provider\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:path_provider] C:\Users\Dawid\AndroidStudioProjects\flutter_app2\build\path_provider\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:image_cropper] C:\Users\Dawid\AndroidStudioProjects\flutter_app2\build\image_cropper\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:image_cropper] C:\Users\Dawid\AndroidStudioProjects\flutter_app2\build\image_cropper\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:add_2_calendar] C:\Users\Dawid\AndroidStudioProjects\flutter_app2\build\add_2_calendar\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:add_2_calendar] C:\Users\Dawid\AndroidStudioProjects\flutter_app2\build\add_2_calendar\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:flutter_image_compress] C:\Users\Dawid\AndroidStudioProjects\flutter_app2\build\flutter_image_compress\intermediates\merged_manifest\debug\AndroidManifest.xml:6:5-9:55
-MERGED from [:flutter_image_compress] C:\Users\Dawid\AndroidStudioProjects\flutter_app2\build\flutter_image_compress\intermediates\merged_manifest\debug\AndroidManifest.xml:6:5-9:55
+INJECTED from C:\Users\Dawid\AndroidStudioProjects\booking_app\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Dawid\AndroidStudioProjects\booking_app\android\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Dawid\AndroidStudioProjects\booking_app\android\app\src\main\AndroidManifest.xml
+MERGED from [:cloud_firestore] C:\Users\Dawid\AndroidStudioProjects\booking_app\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:cloud_firestore] C:\Users\Dawid\AndroidStudioProjects\booking_app\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:flutter_auth_ui] C:\Users\Dawid\AndroidStudioProjects\booking_app\build\flutter_auth_ui\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:flutter_auth_ui] C:\Users\Dawid\AndroidStudioProjects\booking_app\build\flutter_auth_ui\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:firebase_auth] C:\Users\Dawid\AndroidStudioProjects\booking_app\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:firebase_auth] C:\Users\Dawid\AndroidStudioProjects\booking_app\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:firebase_storage] C:\Users\Dawid\AndroidStudioProjects\booking_app\build\firebase_storage\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:firebase_storage] C:\Users\Dawid\AndroidStudioProjects\booking_app\build\firebase_storage\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:firebase_messaging] C:\Users\Dawid\AndroidStudioProjects\booking_app\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:firebase_messaging] C:\Users\Dawid\AndroidStudioProjects\booking_app\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:firebase_core] C:\Users\Dawid\AndroidStudioProjects\booking_app\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:firebase_core] C:\Users\Dawid\AndroidStudioProjects\booking_app\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:geolocator_android] C:\Users\Dawid\AndroidStudioProjects\booking_app\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:geolocator_android] C:\Users\Dawid\AndroidStudioProjects\booking_app\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:image_picker] C:\Users\Dawid\AndroidStudioProjects\booking_app\build\image_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:image_picker] C:\Users\Dawid\AndroidStudioProjects\booking_app\build\image_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:flutter_plugin_android_lifecycle] C:\Users\Dawid\AndroidStudioProjects\booking_app\build\flutter_plugin_android_lifecycle\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:flutter_plugin_android_lifecycle] C:\Users\Dawid\AndroidStudioProjects\booking_app\build\flutter_plugin_android_lifecycle\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:flutter_local_notifications] C:\Users\Dawid\AndroidStudioProjects\booking_app\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:flutter_local_notifications] C:\Users\Dawid\AndroidStudioProjects\booking_app\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:path_provider] C:\Users\Dawid\AndroidStudioProjects\booking_app\build\path_provider\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:path_provider] C:\Users\Dawid\AndroidStudioProjects\booking_app\build\path_provider\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:image_cropper] C:\Users\Dawid\AndroidStudioProjects\booking_app\build\image_cropper\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:image_cropper] C:\Users\Dawid\AndroidStudioProjects\booking_app\build\image_cropper\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:geocoding] C:\Users\Dawid\AndroidStudioProjects\booking_app\build\geocoding\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:geocoding] C:\Users\Dawid\AndroidStudioProjects\booking_app\build\geocoding\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:add_2_calendar] C:\Users\Dawid\AndroidStudioProjects\booking_app\build\add_2_calendar\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:add_2_calendar] C:\Users\Dawid\AndroidStudioProjects\booking_app\build\add_2_calendar\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:flutter_image_compress] C:\Users\Dawid\AndroidStudioProjects\booking_app\build\flutter_image_compress\intermediates\merged_manifest\debug\AndroidManifest.xml:6:5-9:55
+MERGED from [:flutter_image_compress] C:\Users\Dawid\AndroidStudioProjects\booking_app\build\flutter_image_compress\intermediates\merged_manifest\debug\AndroidManifest.xml:6:5-9:55
 MERGED from [androidx.multidex:multidex:2.0.1] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\7d84be2e704ccce51c53e14238b34832\multidex-2.0.1\AndroidManifest.xml:20:5-43
 MERGED from [androidx.multidex:multidex:2.0.1] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\7d84be2e704ccce51c53e14238b34832\multidex-2.0.1\AndroidManifest.xml:20:5-43
 MERGED from [com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\45acada17b1bb68a0a3ff125eed7adbb\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:8:5-10:41
@@ -325,22 +357,24 @@ MERGED from [me.zhanghai.android.materialprogressbar:library:1.6.1] C:\Users\Daw
 MERGED from [me.zhanghai.android.materialprogressbar:library:1.6.1] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\cd6da56553e32c591ab31d66a3be202c\jetified-library-1.6.1\AndroidManifest.xml:11:5-13:41
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\1de6d64a671ee551f4fc19e20453f259\cardview-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\1de6d64a671ee551f4fc19e20453f259\cardview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.github.yalantis:ucrop:2.2.7] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\824b8ec3b3a7db16495a299f6cf6cf5d\jetified-ucrop-2.2.7\AndroidManifest.xml:7:5-9:41
-MERGED from [com.github.yalantis:ucrop:2.2.7] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\824b8ec3b3a7db16495a299f6cf6cf5d\jetified-ucrop-2.2.7\AndroidManifest.xml:7:5-9:41
-MERGED from [androidx.exifinterface:exifinterface:1.3.2] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\327e2953d1cdd2bde212b5378231e1d4\exifinterface-1.3.2\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.exifinterface:exifinterface:1.3.2] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\327e2953d1cdd2bde212b5378231e1d4\exifinterface-1.3.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.1.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\580571fa19e5535e47a9ef11ba1b1be2\media-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.1.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\580571fa19e5535e47a9ef11ba1b1be2\media-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\459900d4f56b50c45a5b91629005ba17\constraintlayout-2.0.4\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\459900d4f56b50c45a5b91629005ba17\constraintlayout-2.0.4\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.yalantis:ucrop:2.2.7] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\824b8ec3b3a7db16495a299f6cf6cf5d\jetified-ucrop-2.2.7\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.yalantis:ucrop:2.2.7] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\824b8ec3b3a7db16495a299f6cf6cf5d\jetified-ucrop-2.2.7\AndroidManifest.xml:7:5-9:41
 MERGED from [androidx.appcompat:appcompat:1.3.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\31d3e43256e6a559685ba91dd113c1b2\appcompat-1.3.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.appcompat:appcompat:1.3.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\31d3e43256e6a559685ba91dd113c1b2\appcompat-1.3.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.transition:transition:1.4.1] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\25871caabe0c56d0fd649c987fd5a8ba\transition-1.4.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.transition:transition:1.4.1] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\25871caabe0c56d0fd649c987fd5a8ba\transition-1.4.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\e139795f745f76b909964f46f3b7f656\lifecycle-extensions-2.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\e139795f745f76b909964f46f3b7f656\lifecycle-extensions-2.2.0\AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.android.gms:play-services-auth:19.0.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\2b16b4fffff13f0944827ca05be05543\jetified-play-services-auth-19.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-auth:19.0.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\2b16b4fffff13f0944827ca05be05543\jetified-play-services-auth-19.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\e139795f745f76b909964f46f3b7f656\lifecycle-extensions-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\e139795f745f76b909964f46f3b7f656\lifecycle-extensions-2.2.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\40a9840ac650edf1496f25e972ffdcf2\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\40a9840ac650edf1496f25e972ffdcf2\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-location:17.0.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\bbc1da31dfb4c9727e5d46580eb82072\jetified-play-services-location-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:17.0.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\bbc1da31dfb4c9727e5d46580eb82072\jetified-play-services-location-17.0.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-auth-base:17.0.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\f640ddede10339ae3905e8354b34e060\jetified-play-services-auth-base-17.0.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-auth-base:17.0.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\f640ddede10339ae3905e8354b34e060\jetified-play-services-auth-base-17.0.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\853795baf6086ddb798731e5e18c7806\jetified-play-services-auth-api-phone-17.4.0\AndroidManifest.xml:5:5-44
@@ -351,6 +385,8 @@ MERGED from [com.google.firebase:firebase-database-collection:18.0.0] C:\Users\D
 MERGED from [com.google.firebase:firebase-database-collection:18.0.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\7e11b3687e99ac7736f515b12866df38\jetified-firebase-database-collection-18.0.0\AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\719d0d1d259f46dcabd1b57fb0263495\jetified-play-services-base-17.1.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\719d0d1d259f46dcabd1b57fb0263495\jetified-play-services-base-17.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\54e240951ac9b1fe8d5a08f841c5eff3\jetified-play-services-places-placereport-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\54e240951ac9b1fe8d5a08f841c5eff3\jetified-play-services-places-placereport-17.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\4d0d77feb53aeca040378bf4dc276124\jetified-play-services-cloud-messaging-17.0.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\4d0d77feb53aeca040378bf4dc276124\jetified-play-services-cloud-messaging-17.0.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\80a2ff04939309e014ed5b16db53b579\jetified-firebase-iid-interop-17.1.0\AndroidManifest.xml:5:5-44
@@ -365,14 +401,8 @@ MERGED from [com.google.android.gms:play-services-basement:17.1.1] C:\Users\Dawi
 MERGED from [com.google.android.gms:play-services-basement:17.1.1] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\2f983798772cd78949c1cadcd96223a2\jetified-play-services-basement-17.1.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.fragment:fragment:1.3.4] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\0abdea55e8914ce8bc5350aa8c29f9da\fragment-1.3.4\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.fragment:fragment:1.3.4] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\0abdea55e8914ce8bc5350aa8c29f9da\fragment-1.3.4\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity:1.2.3] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\5453c463a298511158730f1bb288e1d5\jetified-activity-1.2.3\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity:1.2.3] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\5453c463a298511158730f1bb288e1d5\jetified-activity-1.2.3\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\2815d251804743aaf2ac56ed8b8cf69f\jetified-lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\2815d251804743aaf2ac56ed8b8cf69f\jetified-lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\f4238d2c5be2658b83d3290b29ced28c\jetified-savedstate-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\f4238d2c5be2658b83d3290b29ced28c\jetified-savedstate-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.media:media:1.1.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\580571fa19e5535e47a9ef11ba1b1be2\media-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.media:media:1.1.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\580571fa19e5535e47a9ef11ba1b1be2\media-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\a497494132b0c262aa3f0ac059daef6d\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\a497494132b0c262aa3f0ac059daef6d\loader-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\a4271eab87dc21f412b79b22bd4d1044\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\a4271eab87dc21f412b79b22bd4d1044\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.appcompat:appcompat-resources:1.3.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\f6fb69c704ed4f59822cccf900847af3\jetified-appcompat-resources-1.3.0\AndroidManifest.xml:20:5-22:41
@@ -381,8 +411,8 @@ MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Daw
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\d0cc7b1837cc3b861019edf00e638846\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\9a66317eb68650bead1fad47977f2f0b\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\9a66317eb68650bead1fad47977f2f0b\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\a497494132b0c262aa3f0ac059daef6d\loader-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\a497494132b0c262aa3f0ac059daef6d\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.2.3] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\5453c463a298511158730f1bb288e1d5\jetified-activity-1.2.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.3] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\5453c463a298511158730f1bb288e1d5\jetified-activity-1.2.3\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\2d36857d684bcacae1f12a2823a67e1c\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\2d36857d684bcacae1f12a2823a67e1c\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\fb3df3e96789a269a5a3bcb6120ada1c\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
@@ -397,8 +427,16 @@ MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Dawi
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\2fcc1ac466904c4c96893b5faffa9a4e\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\f0ca3c5c27db01d251a39450720c9201\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\f0ca3c5c27db01d251a39450720c9201\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.5.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\1e5b47970031e419d7f1fed7851ecd02\core-1.5.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core:1.5.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\1e5b47970031e419d7f1fed7851ecd02\core-1.5.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.6.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\1da16067942dcd82bc6630b883359221\core-1.6.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.6.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\1da16067942dcd82bc6630b883359221\core-1.6.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\08da64834b1e358055b9c1e5d87f83fa\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\08da64834b1e358055b9c1e5d87f83fa\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.2] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\327e2953d1cdd2bde212b5378231e1d4\exifinterface-1.3.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.2] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\327e2953d1cdd2bde212b5378231e1d4\exifinterface-1.3.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\2815d251804743aaf2ac56ed8b8cf69f\jetified-lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\2815d251804743aaf2ac56ed8b8cf69f\jetified-lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\f4238d2c5be2658b83d3290b29ced28c\jetified-savedstate-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\f4238d2c5be2658b83d3290b29ced28c\jetified-savedstate-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\ba9589657aa700c21f4085cb613956e0\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\ba9589657aa700c21f4085cb613956e0\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\ae35398bbd30d369d0be2ffe80a51124\interpolator-1.0.0\AndroidManifest.xml:20:5-44
@@ -433,30 +471,28 @@ MERGED from [androidx.print:print:1.0.0] C:\Users\Dawid\.gradle\caches\transform
 MERGED from [androidx.print:print:1.0.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\6434710a41291fb6f4ef88d0dbba11a4\print-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\ce7f405bd16ff0cea5f67fec90b847d9\jetified-firebase-encoders-json-18.0.0\AndroidManifest.xml:19:5-21:41
 MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\ce7f405bd16ff0cea5f67fec90b847d9\jetified-firebase-encoders-json-18.0.0\AndroidManifest.xml:19:5-21:41
-MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\08da64834b1e358055b9c1e5d87f83fa\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\08da64834b1e358055b9c1e5d87f83fa\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [io.grpc:grpc-android:1.41.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\fb4063f957c6a9ae7f09ca1313c9d4a8\jetified-grpc-android-1.41.0\AndroidManifest.xml:7:5-9:41
 MERGED from [io.grpc:grpc-android:1.41.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\fb4063f957c6a9ae7f09ca1313c9d4a8\jetified-grpc-android-1.41.0\AndroidManifest.xml:7:5-9:41
 MERGED from [com.jakewharton.threetenabp:threetenabp:1.2.3] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\9ffbb065298b1797fb578ab6ac7c5d54\jetified-threetenabp-1.2.3\AndroidManifest.xml:5:5-44
 MERGED from [com.jakewharton.threetenabp:threetenabp:1.2.3] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\9ffbb065298b1797fb578ab6ac7c5d54\jetified-threetenabp-1.2.3\AndroidManifest.xml:5:5-44
-MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\daf47bb9fa4d013c40ebda3ff35f97ab\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\daf47bb9fa4d013c40ebda3ff35f97ab\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\39f1e169bd9b26d6bbf1735711d6928f\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\39f1e169bd9b26d6bbf1735711d6928f\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\64559bf0da63608a99a63b20369c3c55\jetified-protolite-well-known-types-18.0.0\AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\64559bf0da63608a99a63b20369c3c55\jetified-protolite-well-known-types-18.0.0\AndroidManifest.xml:7:5-9:41
-INJECTED from C:\Users\Dawid\AndroidStudioProjects\flutter_app2\android\app\src\debug\AndroidManifest.xml
-INJECTED from C:\Users\Dawid\AndroidStudioProjects\flutter_app2\android\app\src\debug\AndroidManifest.xml
+INJECTED from C:\Users\Dawid\AndroidStudioProjects\booking_app\android\app\src\debug\AndroidManifest.xml
+INJECTED from C:\Users\Dawid\AndroidStudioProjects\booking_app\android\app\src\debug\AndroidManifest.xml
 	tools:overrideLibrary
-		ADDED from [:flutter_image_compress] C:\Users\Dawid\AndroidStudioProjects\flutter_app2\build\flutter_image_compress\intermediates\merged_manifest\debug\AndroidManifest.xml:9:9-52
+		ADDED from [:flutter_image_compress] C:\Users\Dawid\AndroidStudioProjects\booking_app\build\flutter_image_compress\intermediates\merged_manifest\debug\AndroidManifest.xml:9:9-52
 	android:targetSdkVersion
-		INJECTED from C:\Users\Dawid\AndroidStudioProjects\flutter_app2\android\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Dawid\AndroidStudioProjects\flutter_app2\android\app\src\debug\AndroidManifest.xml
+		INJECTED from C:\Users\Dawid\AndroidStudioProjects\booking_app\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Dawid\AndroidStudioProjects\booking_app\android\app\src\debug\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\Dawid\AndroidStudioProjects\flutter_app2\android\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Dawid\AndroidStudioProjects\flutter_app2\android\app\src\debug\AndroidManifest.xml
+		INJECTED from C:\Users\Dawid\AndroidStudioProjects\booking_app\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Dawid\AndroidStudioProjects\booking_app\android\app\src\debug\AndroidManifest.xml
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\Dawid\AndroidStudioProjects\flutter_app2\android\app\src\debug\AndroidManifest.xml:6:5-66
-MERGED from [:firebase_messaging] C:\Users\Dawid\AndroidStudioProjects\flutter_app2\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:7:5-67
-MERGED from [:firebase_messaging] C:\Users\Dawid\AndroidStudioProjects\flutter_app2\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:7:5-67
+ADDED from C:\Users\Dawid\AndroidStudioProjects\booking_app\android\app\src\debug\AndroidManifest.xml:6:5-66
+MERGED from [:firebase_messaging] C:\Users\Dawid\AndroidStudioProjects\booking_app\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:7:5-67
+MERGED from [:firebase_messaging] C:\Users\Dawid\AndroidStudioProjects\booking_app\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:7:5-67
 MERGED from [com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\45acada17b1bb68a0a3ff125eed7adbb\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:13:5-67
 MERGED from [com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\45acada17b1bb68a0a3ff125eed7adbb\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:13:5-67
 MERGED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\3987dc8aae8d8dcf525d9aca52b542d3\jetified-firebase-auth-21.0.1\AndroidManifest.xml:23:5-67
@@ -472,17 +508,17 @@ MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.0] C:\Use
 MERGED from [com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\73ed6246ea170323825ca7e5b2ee536f\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:26:5-67
 MERGED from [com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\73ed6246ea170323825ca7e5b2ee536f\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:26:5-67
 	android:name
-		ADDED from C:\Users\Dawid\AndroidStudioProjects\flutter_app2\android\app\src\debug\AndroidManifest.xml:6:22-64
+		ADDED from C:\Users\Dawid\AndroidStudioProjects\booking_app\android\app\src\debug\AndroidManifest.xml:6:22-64
 service#com.google.firebase.components.ComponentDiscoveryService
-ADDED from [:cloud_firestore] C:\Users\Dawid\AndroidStudioProjects\flutter_app2\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:8:9-12:19
-MERGED from [:firebase_auth] C:\Users\Dawid\AndroidStudioProjects\flutter_app2\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:8:9-12:19
-MERGED from [:firebase_auth] C:\Users\Dawid\AndroidStudioProjects\flutter_app2\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:8:9-12:19
-MERGED from [:firebase_storage] C:\Users\Dawid\AndroidStudioProjects\flutter_app2\build\firebase_storage\intermediates\merged_manifest\debug\AndroidManifest.xml:8:9-12:19
-MERGED from [:firebase_storage] C:\Users\Dawid\AndroidStudioProjects\flutter_app2\build\firebase_storage\intermediates\merged_manifest\debug\AndroidManifest.xml:8:9-12:19
-MERGED from [:firebase_messaging] C:\Users\Dawid\AndroidStudioProjects\flutter_app2\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:33:9-37:19
-MERGED from [:firebase_messaging] C:\Users\Dawid\AndroidStudioProjects\flutter_app2\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:33:9-37:19
-MERGED from [:firebase_core] C:\Users\Dawid\AndroidStudioProjects\flutter_app2\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:8:9-12:19
-MERGED from [:firebase_core] C:\Users\Dawid\AndroidStudioProjects\flutter_app2\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:8:9-12:19
+ADDED from [:cloud_firestore] C:\Users\Dawid\AndroidStudioProjects\booking_app\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_auth] C:\Users\Dawid\AndroidStudioProjects\booking_app\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_auth] C:\Users\Dawid\AndroidStudioProjects\booking_app\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_storage] C:\Users\Dawid\AndroidStudioProjects\booking_app\build\firebase_storage\intermediates\merged_manifest\debug\AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_storage] C:\Users\Dawid\AndroidStudioProjects\booking_app\build\firebase_storage\intermediates\merged_manifest\debug\AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_messaging] C:\Users\Dawid\AndroidStudioProjects\booking_app\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:33:9-37:19
+MERGED from [:firebase_messaging] C:\Users\Dawid\AndroidStudioProjects\booking_app\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:33:9-37:19
+MERGED from [:firebase_core] C:\Users\Dawid\AndroidStudioProjects\booking_app\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_core] C:\Users\Dawid\AndroidStudioProjects\booking_app\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:8:9-12:19
 MERGED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\3987dc8aae8d8dcf525d9aca52b542d3\jetified-firebase-auth-21.0.1\AndroidManifest.xml:74:9-80:19
 MERGED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\3987dc8aae8d8dcf525d9aca52b542d3\jetified-firebase-auth-21.0.1\AndroidManifest.xml:74:9-80:19
 MERGED from [com.google.firebase:firebase-firestore:24.0.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\a094ee39102cb4cc6d35b5e412c7f524\jetified-firebase-firestore-24.0.0\AndroidManifest.xml:17:9-23:19
@@ -504,35 +540,35 @@ MERGED from [com.google.firebase:firebase-common:20.0.0] C:\Users\Dawid\.gradle\
 	android:directBootAware
 		ADDED from [com.google.firebase:firebase-common:20.0.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\cebf493695aba4867012310dd03b1e5c\jetified-firebase-common-20.0.0\AndroidManifest.xml:35:13-43
 	android:name
-		ADDED from [:cloud_firestore] C:\Users\Dawid\AndroidStudioProjects\flutter_app2\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:8:18-89
+		ADDED from [:cloud_firestore] C:\Users\Dawid\AndroidStudioProjects\booking_app\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:8:18-89
 meta-data#com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar
-ADDED from [:cloud_firestore] C:\Users\Dawid\AndroidStudioProjects\flutter_app2\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:9:13-11:85
+ADDED from [:cloud_firestore] C:\Users\Dawid\AndroidStudioProjects\booking_app\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:9:13-11:85
 	android:value
-		ADDED from [:cloud_firestore] C:\Users\Dawid\AndroidStudioProjects\flutter_app2\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:11:17-82
+		ADDED from [:cloud_firestore] C:\Users\Dawid\AndroidStudioProjects\booking_app\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:11:17-82
 	android:name
-		ADDED from [:cloud_firestore] C:\Users\Dawid\AndroidStudioProjects\flutter_app2\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:10:17-134
+		ADDED from [:cloud_firestore] C:\Users\Dawid\AndroidStudioProjects\booking_app\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:10:17-134
 meta-data#com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar
-ADDED from [:firebase_auth] C:\Users\Dawid\AndroidStudioProjects\flutter_app2\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:9:13-11:85
+ADDED from [:firebase_auth] C:\Users\Dawid\AndroidStudioProjects\booking_app\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:9:13-11:85
 	android:value
-		ADDED from [:firebase_auth] C:\Users\Dawid\AndroidStudioProjects\flutter_app2\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:11:17-82
+		ADDED from [:firebase_auth] C:\Users\Dawid\AndroidStudioProjects\booking_app\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:11:17-82
 	android:name
-		ADDED from [:firebase_auth] C:\Users\Dawid\AndroidStudioProjects\flutter_app2\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:10:17-124
+		ADDED from [:firebase_auth] C:\Users\Dawid\AndroidStudioProjects\booking_app\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:10:17-124
 meta-data#com.google.firebase.components:io.flutter.plugins.firebase.storage.FlutterFirebaseAppRegistrar
-ADDED from [:firebase_storage] C:\Users\Dawid\AndroidStudioProjects\flutter_app2\build\firebase_storage\intermediates\merged_manifest\debug\AndroidManifest.xml:9:13-11:85
+ADDED from [:firebase_storage] C:\Users\Dawid\AndroidStudioProjects\booking_app\build\firebase_storage\intermediates\merged_manifest\debug\AndroidManifest.xml:9:13-11:85
 	android:value
-		ADDED from [:firebase_storage] C:\Users\Dawid\AndroidStudioProjects\flutter_app2\build\firebase_storage\intermediates\merged_manifest\debug\AndroidManifest.xml:11:17-82
+		ADDED from [:firebase_storage] C:\Users\Dawid\AndroidStudioProjects\booking_app\build\firebase_storage\intermediates\merged_manifest\debug\AndroidManifest.xml:11:17-82
 	android:name
-		ADDED from [:firebase_storage] C:\Users\Dawid\AndroidStudioProjects\flutter_app2\build\firebase_storage\intermediates\merged_manifest\debug\AndroidManifest.xml:10:17-126
+		ADDED from [:firebase_storage] C:\Users\Dawid\AndroidStudioProjects\booking_app\build\firebase_storage\intermediates\merged_manifest\debug\AndroidManifest.xml:10:17-126
 uses-permission#android.permission.WAKE_LOCK
-ADDED from [:firebase_messaging] C:\Users\Dawid\AndroidStudioProjects\flutter_app2\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:8:5-68
+ADDED from [:firebase_messaging] C:\Users\Dawid\AndroidStudioProjects\booking_app\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:8:5-68
 MERGED from [com.google.firebase:firebase-messaging:23.0.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\5f7a58824b868b26044fe6f5f44ae178\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:23:5-68
 MERGED from [com.google.firebase:firebase-messaging:23.0.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\5f7a58824b868b26044fe6f5f44ae178\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:23:5-68
 MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\4d0d77feb53aeca040378bf4dc276124\jetified-play-services-cloud-messaging-17.0.0\AndroidManifest.xml:9:5-68
 MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\4d0d77feb53aeca040378bf4dc276124\jetified-play-services-cloud-messaging-17.0.0\AndroidManifest.xml:9:5-68
 	android:name
-		ADDED from [:firebase_messaging] C:\Users\Dawid\AndroidStudioProjects\flutter_app2\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:8:22-65
+		ADDED from [:firebase_messaging] C:\Users\Dawid\AndroidStudioProjects\booking_app\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:8:22-65
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [:firebase_messaging] C:\Users\Dawid\AndroidStudioProjects\flutter_app2\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-79
+ADDED from [:firebase_messaging] C:\Users\Dawid\AndroidStudioProjects\booking_app\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-79
 MERGED from [com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\45acada17b1bb68a0a3ff125eed7adbb\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:12:5-79
 MERGED from [com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\45acada17b1bb68a0a3ff125eed7adbb\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:12:5-79
 MERGED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\3987dc8aae8d8dcf525d9aca52b542d3\jetified-firebase-auth-21.0.1\AndroidManifest.xml:24:5-79
@@ -554,125 +590,125 @@ MERGED from [com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\
 MERGED from [io.grpc:grpc-android:1.41.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\fb4063f957c6a9ae7f09ca1313c9d4a8\jetified-grpc-android-1.41.0\AndroidManifest.xml:11:5-79
 MERGED from [io.grpc:grpc-android:1.41.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\fb4063f957c6a9ae7f09ca1313c9d4a8\jetified-grpc-android-1.41.0\AndroidManifest.xml:11:5-79
 	android:name
-		ADDED from [:firebase_messaging] C:\Users\Dawid\AndroidStudioProjects\flutter_app2\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:9:22-76
+		ADDED from [:firebase_messaging] C:\Users\Dawid\AndroidStudioProjects\booking_app\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:9:22-76
 service#io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService
-ADDED from [:firebase_messaging] C:\Users\Dawid\AndroidStudioProjects\flutter_app2\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:12:9-15:72
+ADDED from [:firebase_messaging] C:\Users\Dawid\AndroidStudioProjects\booking_app\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:12:9-15:72
 	android:exported
-		ADDED from [:firebase_messaging] C:\Users\Dawid\AndroidStudioProjects\flutter_app2\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-37
+		ADDED from [:firebase_messaging] C:\Users\Dawid\AndroidStudioProjects\booking_app\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-37
 	android:permission
-		ADDED from [:firebase_messaging] C:\Users\Dawid\AndroidStudioProjects\flutter_app2\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-69
+		ADDED from [:firebase_messaging] C:\Users\Dawid\AndroidStudioProjects\booking_app\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-69
 	android:name
-		ADDED from [:firebase_messaging] C:\Users\Dawid\AndroidStudioProjects\flutter_app2\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-107
+		ADDED from [:firebase_messaging] C:\Users\Dawid\AndroidStudioProjects\booking_app\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-107
 service#io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService
-ADDED from [:firebase_messaging] C:\Users\Dawid\AndroidStudioProjects\flutter_app2\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:16:9-22:19
+ADDED from [:firebase_messaging] C:\Users\Dawid\AndroidStudioProjects\booking_app\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:16:9-22:19
 	android:exported
-		ADDED from [:firebase_messaging] C:\Users\Dawid\AndroidStudioProjects\flutter_app2\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:18:13-37
+		ADDED from [:firebase_messaging] C:\Users\Dawid\AndroidStudioProjects\booking_app\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:18:13-37
 	android:name
-		ADDED from [:firebase_messaging] C:\Users\Dawid\AndroidStudioProjects\flutter_app2\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:17:13-97
+		ADDED from [:firebase_messaging] C:\Users\Dawid\AndroidStudioProjects\booking_app\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:17:13-97
 intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
-ADDED from [:firebase_messaging] C:\Users\Dawid\AndroidStudioProjects\flutter_app2\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:19:13-21:29
+ADDED from [:firebase_messaging] C:\Users\Dawid\AndroidStudioProjects\booking_app\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:19:13-21:29
 action#com.google.firebase.MESSAGING_EVENT
-ADDED from [:firebase_messaging] C:\Users\Dawid\AndroidStudioProjects\flutter_app2\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:20:17-78
+ADDED from [:firebase_messaging] C:\Users\Dawid\AndroidStudioProjects\booking_app\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:20:17-78
 	android:name
-		ADDED from [:firebase_messaging] C:\Users\Dawid\AndroidStudioProjects\flutter_app2\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:20:25-75
+		ADDED from [:firebase_messaging] C:\Users\Dawid\AndroidStudioProjects\booking_app\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:20:25-75
 receiver#io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver
-ADDED from [:firebase_messaging] C:\Users\Dawid\AndroidStudioProjects\flutter_app2\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:24:9-31:20
+ADDED from [:firebase_messaging] C:\Users\Dawid\AndroidStudioProjects\booking_app\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:24:9-31:20
 	android:exported
-		ADDED from [:firebase_messaging] C:\Users\Dawid\AndroidStudioProjects\flutter_app2\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:26:13-36
+		ADDED from [:firebase_messaging] C:\Users\Dawid\AndroidStudioProjects\booking_app\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:26:13-36
 	android:permission
-		ADDED from [:firebase_messaging] C:\Users\Dawid\AndroidStudioProjects\flutter_app2\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:27:13-73
+		ADDED from [:firebase_messaging] C:\Users\Dawid\AndroidStudioProjects\booking_app\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:27:13-73
 	android:name
-		ADDED from [:firebase_messaging] C:\Users\Dawid\AndroidStudioProjects\flutter_app2\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:25:13-98
+		ADDED from [:firebase_messaging] C:\Users\Dawid\AndroidStudioProjects\booking_app\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:25:13-98
 intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
-ADDED from [:firebase_messaging] C:\Users\Dawid\AndroidStudioProjects\flutter_app2\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:28:13-30:29
+ADDED from [:firebase_messaging] C:\Users\Dawid\AndroidStudioProjects\booking_app\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:28:13-30:29
 action#com.google.android.c2dm.intent.RECEIVE
-ADDED from [:firebase_messaging] C:\Users\Dawid\AndroidStudioProjects\flutter_app2\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:29:17-81
+ADDED from [:firebase_messaging] C:\Users\Dawid\AndroidStudioProjects\booking_app\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:29:17-81
 	android:name
-		ADDED from [:firebase_messaging] C:\Users\Dawid\AndroidStudioProjects\flutter_app2\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:29:25-78
+		ADDED from [:firebase_messaging] C:\Users\Dawid\AndroidStudioProjects\booking_app\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:29:25-78
 meta-data#com.google.firebase.components:io.flutter.plugins.firebase.messaging.FlutterFirebaseAppRegistrar
-ADDED from [:firebase_messaging] C:\Users\Dawid\AndroidStudioProjects\flutter_app2\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:34:13-36:85
+ADDED from [:firebase_messaging] C:\Users\Dawid\AndroidStudioProjects\booking_app\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:34:13-36:85
 	android:value
-		ADDED from [:firebase_messaging] C:\Users\Dawid\AndroidStudioProjects\flutter_app2\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:36:17-82
+		ADDED from [:firebase_messaging] C:\Users\Dawid\AndroidStudioProjects\booking_app\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:36:17-82
 	android:name
-		ADDED from [:firebase_messaging] C:\Users\Dawid\AndroidStudioProjects\flutter_app2\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:35:17-128
+		ADDED from [:firebase_messaging] C:\Users\Dawid\AndroidStudioProjects\booking_app\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:35:17-128
 provider#io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider
-ADDED from [:firebase_messaging] C:\Users\Dawid\AndroidStudioProjects\flutter_app2\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:39:9-43:38
+ADDED from [:firebase_messaging] C:\Users\Dawid\AndroidStudioProjects\booking_app\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:39:9-43:38
 	android:authorities
-		ADDED from [:firebase_messaging] C:\Users\Dawid\AndroidStudioProjects\flutter_app2\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:41:13-88
+		ADDED from [:firebase_messaging] C:\Users\Dawid\AndroidStudioProjects\booking_app\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:41:13-88
 	android:exported
-		ADDED from [:firebase_messaging] C:\Users\Dawid\AndroidStudioProjects\flutter_app2\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:42:13-37
+		ADDED from [:firebase_messaging] C:\Users\Dawid\AndroidStudioProjects\booking_app\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:42:13-37
 	android:initOrder
-		ADDED from [:firebase_messaging] C:\Users\Dawid\AndroidStudioProjects\flutter_app2\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:43:13-35
+		ADDED from [:firebase_messaging] C:\Users\Dawid\AndroidStudioProjects\booking_app\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:43:13-35
 	android:name
-		ADDED from [:firebase_messaging] C:\Users\Dawid\AndroidStudioProjects\flutter_app2\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:40:13-102
+		ADDED from [:firebase_messaging] C:\Users\Dawid\AndroidStudioProjects\booking_app\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:40:13-102
 meta-data#com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar
-ADDED from [:firebase_core] C:\Users\Dawid\AndroidStudioProjects\flutter_app2\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:9:13-11:85
+ADDED from [:firebase_core] C:\Users\Dawid\AndroidStudioProjects\booking_app\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:9:13-11:85
 	android:value
-		ADDED from [:firebase_core] C:\Users\Dawid\AndroidStudioProjects\flutter_app2\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:11:17-82
+		ADDED from [:firebase_core] C:\Users\Dawid\AndroidStudioProjects\booking_app\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:11:17-82
 	android:name
-		ADDED from [:firebase_core] C:\Users\Dawid\AndroidStudioProjects\flutter_app2\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:10:17-124
+		ADDED from [:firebase_core] C:\Users\Dawid\AndroidStudioProjects\booking_app\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:10:17-124
 provider#io.flutter.plugins.imagepicker.ImagePickerFileProvider
-ADDED from [:image_picker] C:\Users\Dawid\AndroidStudioProjects\flutter_app2\build\image_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:8:9-16:20
+ADDED from [:image_picker] C:\Users\Dawid\AndroidStudioProjects\booking_app\build\image_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:8:9-16:20
 	android:grantUriPermissions
-		ADDED from [:image_picker] C:\Users\Dawid\AndroidStudioProjects\flutter_app2\build\image_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-47
+		ADDED from [:image_picker] C:\Users\Dawid\AndroidStudioProjects\booking_app\build\image_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-47
 	android:authorities
-		ADDED from [:image_picker] C:\Users\Dawid\AndroidStudioProjects\flutter_app2\build\image_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:10:13-74
+		ADDED from [:image_picker] C:\Users\Dawid\AndroidStudioProjects\booking_app\build\image_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:10:13-74
 	android:exported
-		ADDED from [:image_picker] C:\Users\Dawid\AndroidStudioProjects\flutter_app2\build\image_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-37
+		ADDED from [:image_picker] C:\Users\Dawid\AndroidStudioProjects\booking_app\build\image_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-37
 	android:name
-		ADDED from [:image_picker] C:\Users\Dawid\AndroidStudioProjects\flutter_app2\build\image_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:9:13-82
+		ADDED from [:image_picker] C:\Users\Dawid\AndroidStudioProjects\booking_app\build\image_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:9:13-82
 meta-data#android.support.FILE_PROVIDER_PATHS
-ADDED from [:image_picker] C:\Users\Dawid\AndroidStudioProjects\flutter_app2\build\image_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-15:75
+ADDED from [:image_picker] C:\Users\Dawid\AndroidStudioProjects\booking_app\build\image_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-15:75
 	android:resource
-		ADDED from [:image_picker] C:\Users\Dawid\AndroidStudioProjects\flutter_app2\build\image_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:15:17-72
+		ADDED from [:image_picker] C:\Users\Dawid\AndroidStudioProjects\booking_app\build\image_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:15:17-72
 	android:name
-		ADDED from [:image_picker] C:\Users\Dawid\AndroidStudioProjects\flutter_app2\build\image_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:14:17-67
+		ADDED from [:image_picker] C:\Users\Dawid\AndroidStudioProjects\booking_app\build\image_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:14:17-67
 uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
-ADDED from [:flutter_local_notifications] C:\Users\Dawid\AndroidStudioProjects\flutter_app2\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:7:5-81
+ADDED from [:flutter_local_notifications] C:\Users\Dawid\AndroidStudioProjects\booking_app\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:7:5-81
 	android:name
-		ADDED from [:flutter_local_notifications] C:\Users\Dawid\AndroidStudioProjects\flutter_app2\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:7:22-78
+		ADDED from [:flutter_local_notifications] C:\Users\Dawid\AndroidStudioProjects\booking_app\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:7:22-78
 uses-permission#android.permission.VIBRATE
-ADDED from [:flutter_local_notifications] C:\Users\Dawid\AndroidStudioProjects\flutter_app2\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:8:5-66
+ADDED from [:flutter_local_notifications] C:\Users\Dawid\AndroidStudioProjects\booking_app\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:8:5-66
 	android:name
-		ADDED from [:flutter_local_notifications] C:\Users\Dawid\AndroidStudioProjects\flutter_app2\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:8:22-63
+		ADDED from [:flutter_local_notifications] C:\Users\Dawid\AndroidStudioProjects\booking_app\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:8:22-63
 uses-permission#android.permission.USE_FULL_SCREEN_INTENT
-ADDED from [:flutter_local_notifications] C:\Users\Dawid\AndroidStudioProjects\flutter_app2\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-81
+ADDED from [:flutter_local_notifications] C:\Users\Dawid\AndroidStudioProjects\booking_app\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-81
 	android:name
-		ADDED from [:flutter_local_notifications] C:\Users\Dawid\AndroidStudioProjects\flutter_app2\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:9:22-78
+		ADDED from [:flutter_local_notifications] C:\Users\Dawid\AndroidStudioProjects\booking_app\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:9:22-78
 uses-permission#android.permission.SCHEDULE_EXACT_ALARM
-ADDED from [:flutter_local_notifications] C:\Users\Dawid\AndroidStudioProjects\flutter_app2\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-79
+ADDED from [:flutter_local_notifications] C:\Users\Dawid\AndroidStudioProjects\booking_app\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-79
 	android:name
-		ADDED from [:flutter_local_notifications] C:\Users\Dawid\AndroidStudioProjects\flutter_app2\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:10:22-76
+		ADDED from [:flutter_local_notifications] C:\Users\Dawid\AndroidStudioProjects\booking_app\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:10:22-76
 receiver#com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver
-ADDED from [:flutter_local_notifications] C:\Users\Dawid\AndroidStudioProjects\flutter_app2\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:13:9-15:40
+ADDED from [:flutter_local_notifications] C:\Users\Dawid\AndroidStudioProjects\booking_app\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:13:9-15:40
 	android:exported
-		ADDED from [:flutter_local_notifications] C:\Users\Dawid\AndroidStudioProjects\flutter_app2\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-37
+		ADDED from [:flutter_local_notifications] C:\Users\Dawid\AndroidStudioProjects\booking_app\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-37
 	android:name
-		ADDED from [:flutter_local_notifications] C:\Users\Dawid\AndroidStudioProjects\flutter_app2\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-97
+		ADDED from [:flutter_local_notifications] C:\Users\Dawid\AndroidStudioProjects\booking_app\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-97
 receiver#com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver
-ADDED from [:flutter_local_notifications] C:\Users\Dawid\AndroidStudioProjects\flutter_app2\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:16:9-25:20
+ADDED from [:flutter_local_notifications] C:\Users\Dawid\AndroidStudioProjects\booking_app\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:16:9-25:20
 	android:exported
-		ADDED from [:flutter_local_notifications] C:\Users\Dawid\AndroidStudioProjects\flutter_app2\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:18:13-37
+		ADDED from [:flutter_local_notifications] C:\Users\Dawid\AndroidStudioProjects\booking_app\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:18:13-37
 	android:name
-		ADDED from [:flutter_local_notifications] C:\Users\Dawid\AndroidStudioProjects\flutter_app2\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:17:13-101
+		ADDED from [:flutter_local_notifications] C:\Users\Dawid\AndroidStudioProjects\booking_app\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:17:13-101
 intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.MY_PACKAGE_REPLACED+action:name:android.intent.action.QUICKBOOT_POWERON+action:name:com.htc.intent.action.QUICKBOOT_POWERON
-ADDED from [:flutter_local_notifications] C:\Users\Dawid\AndroidStudioProjects\flutter_app2\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:19:13-24:29
+ADDED from [:flutter_local_notifications] C:\Users\Dawid\AndroidStudioProjects\booking_app\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:19:13-24:29
 action#android.intent.action.BOOT_COMPLETED
-ADDED from [:flutter_local_notifications] C:\Users\Dawid\AndroidStudioProjects\flutter_app2\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:20:17-79
+ADDED from [:flutter_local_notifications] C:\Users\Dawid\AndroidStudioProjects\booking_app\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:20:17-79
 	android:name
-		ADDED from [:flutter_local_notifications] C:\Users\Dawid\AndroidStudioProjects\flutter_app2\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:20:25-76
+		ADDED from [:flutter_local_notifications] C:\Users\Dawid\AndroidStudioProjects\booking_app\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:20:25-76
 action#android.intent.action.MY_PACKAGE_REPLACED
-ADDED from [:flutter_local_notifications] C:\Users\Dawid\AndroidStudioProjects\flutter_app2\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:21:17-84
+ADDED from [:flutter_local_notifications] C:\Users\Dawid\AndroidStudioProjects\booking_app\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:21:17-84
 	android:name
-		ADDED from [:flutter_local_notifications] C:\Users\Dawid\AndroidStudioProjects\flutter_app2\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:21:25-81
+		ADDED from [:flutter_local_notifications] C:\Users\Dawid\AndroidStudioProjects\booking_app\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:21:25-81
 action#android.intent.action.QUICKBOOT_POWERON
-ADDED from [:flutter_local_notifications] C:\Users\Dawid\AndroidStudioProjects\flutter_app2\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:22:17-82
+ADDED from [:flutter_local_notifications] C:\Users\Dawid\AndroidStudioProjects\booking_app\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:22:17-82
 	android:name
-		ADDED from [:flutter_local_notifications] C:\Users\Dawid\AndroidStudioProjects\flutter_app2\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:22:25-79
+		ADDED from [:flutter_local_notifications] C:\Users\Dawid\AndroidStudioProjects\booking_app\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:22:25-79
 action#com.htc.intent.action.QUICKBOOT_POWERON
-ADDED from [:flutter_local_notifications] C:\Users\Dawid\AndroidStudioProjects\flutter_app2\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:23:17-82
+ADDED from [:flutter_local_notifications] C:\Users\Dawid\AndroidStudioProjects\booking_app\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:23:17-82
 	android:name
-		ADDED from [:flutter_local_notifications] C:\Users\Dawid\AndroidStudioProjects\flutter_app2\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:23:25-79
+		ADDED from [:flutter_local_notifications] C:\Users\Dawid\AndroidStudioProjects\booking_app\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:23:25-79
 meta-data#com.google.android.gms.version
 ADDED from [com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\45acada17b1bb68a0a3ff125eed7adbb\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:16:9-18:69
 MERGED from [com.google.android.gms:play-services-basement:17.1.1] C:\Users\Dawid\.gradle\caches\transforms-2\files-2.1\2f983798772cd78949c1cadcd96223a2\jetified-play-services-basement-17.1.1\AndroidManifest.xml:23:9-25:69

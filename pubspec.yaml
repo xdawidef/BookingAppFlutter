@@ -59,6 +59,8 @@ dependencies:
   path: ^1.8.0
   image_cropper: ^1.4.1
   flutter_image_compress: ^1.0.0
+  geolocator: ^8.0.0
+  geocoding: ^2.0.1
 
 
 

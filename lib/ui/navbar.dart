@@ -1,6 +1,7 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_app/model/user_model.dart';
+import 'package:flutter_app/ui/login_page/theme.dart';
 import 'package:flutter_app/view_model/home/home_view_model_imp.dart';
 import 'package:flutter_app/view_model/main/main_view_model_imp.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -26,12 +27,12 @@ class NavBar extends StatelessWidget {
                   var userModel = snapshot.data as UserModel;
                   return UserAccountsDrawerHeader(
                     accountName: Text('${userModel.name}',
-                        style: GoogleFonts.robotoMono(
+                        style: GoogleFonts.saira(
                             color: Colors.white,
                             fontWeight: FontWeight.bold),),
                     accountEmail: Text('${userModel.address}',
                       overflow: TextOverflow.ellipsis,
-                      style: GoogleFonts.robotoMono(
+                      style: GoogleFonts.saira(
                           color: Colors.white,),),
                     currentAccountPicture: CircleAvatar(
                       child: ClipOval(
@@ -72,17 +73,7 @@ class NavBar extends StatelessWidget {
           ),
           ListTile(
             leading: Icon(Icons.people),
-            title: Text('Friends'),
-            onTap: ()=> null,
-          ),
-          ListTile(
-            leading: Icon(Icons.share),
-            title: Text('Share'),
-            onTap: ()=> null,
-          ),
-          ListTile(
-            leading: Icon(Icons.notifications),
-            title: Text('Notifications'),
+            title: Text('Chat'),
             onTap: ()=> null,
           ),
           Divider(
@@ -91,7 +82,8 @@ class NavBar extends StatelessWidget {
           ListTile(
             leading: Icon(Icons.settings),
             title: Text('Settings'),
-            onTap: ()=> null,
+            onTap: ()=> Navigator.of(context).pushNamed(
+                '/profile'),
           ),
           ListTile(
             leading: Icon(Icons.description),

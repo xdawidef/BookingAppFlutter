@@ -2,11 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:flutter_app/model/worker_model.dart';
 import 'package:flutter_app/state/state_management.dart';
 import 'package:flutter_app/ui/login_page/theme.dart';
-import 'package:flutter_app/utils/utils.dart';
+import 'package:flutter_app/time_description/time_description.dart';
 import 'package:flutter_app/view_model/booking/booking_view_model.dart';
 import 'package:flutter_datetime_picker/flutter_datetime_picker.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:google_fonts/google_fonts.dart';
 import 'package:intl/intl.dart';
 
 displayTimeSlot(BookingViewModel bookingViewModel, BuildContext context, WorkerModel workerModel) {
@@ -15,7 +14,6 @@ displayTimeSlot(BookingViewModel bookingViewModel, BuildContext context, WorkerM
     children: [
       Container(
           color: lessDarkGreenColor,
-          //Color(0xFF008577)
           child: Row(
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [

@@ -2,9 +2,9 @@ import 'package:carousel_slider/carousel_controller.dart';
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_app/intro/constant.dart';
-import 'package:flutter_app/intro/dummy.dart';
-import 'package:flutter_app/intro/item_model.dart';
+import 'package:flutter_app/ui/intro/constant.dart';
+import 'package:flutter_app/ui/intro/dummy.dart';
+import 'package:flutter_app/model/intro_model.dart';
 import 'package:flutter_app/main.dart';
 
 class IntroScreen extends StatefulWidget {
@@ -18,7 +18,7 @@ class _IntroScreenState extends State<IntroScreen> {
 
   @override
   Widget build(BuildContext context) {
-    onintroItem(ItemModel item) {
+    onintroItem(IntroModel item) {
       return Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
@@ -121,7 +121,7 @@ class _IntroScreenState extends State<IntroScreen> {
               children: [
                 CarouselSlider(
                   items: data
-                      .map((item) => onintroItem(ItemModel.fromJson(item)))
+                      .map((item) => onintroItem(IntroModel.fromJson(item)))
                       .toList(),
                   options: CarouselOptions(
                     initialPage: currentIndex,

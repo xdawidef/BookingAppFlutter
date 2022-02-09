@@ -13,7 +13,6 @@ void initFirebaseMessagingHandler(AndroidNotificationChannel channel){
         android: AndroidNotificationDetails(
           channel.id,
           channel.name,
-        //  channel.description,
           icon: 'launch_background'
         )
       ));
@@ -21,7 +20,6 @@ void initFirebaseMessagingHandler(AndroidNotificationChannel channel){
   });
 
   FirebaseMessaging.onMessageOpenedApp.listen((RemoteMessage message) {
-    //Place to add Navigation code to push with message
-    //Navigation..
+
   });
 }

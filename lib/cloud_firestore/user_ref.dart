@@ -16,7 +16,7 @@ Future<UserModel> getUserProfiles(BuildContext context, String phone) async {
     return userModel;
   } else {
     return UserModel(name: '', address: '', profileImage: '');
-  } //Empty
+  }
 }
 
 Future<List<BookingModel>> getUserHistory() async{

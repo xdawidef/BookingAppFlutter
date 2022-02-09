@@ -17,9 +17,9 @@ class UserHistoryViewModelImp implements UserHistoryViewModel{
   void userCancelBooking(BuildContext context, BookingModel bookingModel) {
     var batch = FirebaseFirestore.instance.batch();
     var workerBooking = FirebaseFirestore.instance
-        .collection('AllSalon')
+        .collection('Salons')
         .doc(bookingModel.cityBook)
-        .collection('Spa')
+        .collection('Field')
         .doc(bookingModel.salonId)
         .collection('Worker')
         .doc(bookingModel.workerId)
@@ -28,14 +28,12 @@ class UserHistoryViewModelImp implements UserHistoryViewModel{
         .doc(bookingModel.slot.toString());
     var userBooking = bookingModel.reference;
 
-    //Delete
     batch.delete(userBooking!);
     batch.delete(workerBooking);
 
     batch.commit().then((value) {
-      //Refresh data
-      context.read(deleteFlagRefresh).state =
-      !context.read(deleteFlagRefresh).state;
+      context.read(deleteBooking).state =
+      !context.read(deleteBooking).state;
     });
   }
 

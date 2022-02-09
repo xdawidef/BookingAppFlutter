@@ -2,7 +2,7 @@
 import 'dart:convert';
 
 import 'package:dio/dio.dart';
-import 'package:flutter_app/cloud_firestore/app_data.dart';
+import 'package:flutter_app/cloud_firestore/cloud_messaging.dart';
 import 'package:flutter_app/model/notification_payload_model.dart';
 
 Future<bool> sendNotification(NotificationPayloadModel notificationPayloadModel) async{

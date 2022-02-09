@@ -4,21 +4,22 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/framework.dart';
-import 'package:flutter_app/cloud_firestore/all_salon_ref.dart';
+import 'package:flutter_app/cloud_firestore/salons_ref.dart';
 import 'package:flutter_app/model/booking_model.dart';
 import 'package:flutter_app/model/city_model.dart';
 import 'package:flutter_app/model/salon_model.dart';
 import 'package:flutter_app/model/worker_model.dart';
 import 'package:flutter_app/state/state_management.dart';
-import 'package:flutter_app/utils/utils.dart';
+import 'package:flutter_app/time_description/time_description.dart';
 import 'package:flutter_app/view_model/booking/booking_view_model_imp.dart';
-import 'package:flutter_app/widgets/my_loading_widget.dart';
+import 'package:flutter_app/ui/components/widgets/loader_widget.dart';
 import 'package:flutter_datetime_picker/flutter_datetime_picker.dart';
 import 'package:flutter_rating_bar/flutter_rating_bar.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:im_stepper/stepper.dart';
 import 'package:intl/intl.dart';
+import 'package:path/path.dart';
 
 import 'components/user_widgets/city_list.dart';
 import 'components/user_widgets/confirm.dart';
@@ -84,7 +85,7 @@ class BookingScreen extends ConsumerWidget {
                         : step == 4
                             ? displayTimeSlot(bookingViewModel, context, workerWatch)
                             : step == 5
-                                ? isLoadingWatch ? MyLoadingWidget(text: 'We are setting up your booking!') : displayConfirm(bookingViewModel, context, scaffoldKey)
+                                ? isLoadingWatch ? LoaderWidget(text: 'Your booking is being finalized!',) : displayConfirm(bookingViewModel, context, scaffoldKey)
                                 : Container(),
           ),
           //Button

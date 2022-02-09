@@ -4,8 +4,8 @@ import 'package:flutter_app/model/user_model.dart';
 
 abstract class HomeViewModel{
   Future<UserModel> displayUserProfile(BuildContext context, String phoneNumber);
-  Future<List<ImageModel>> displayBanner();
-  Future<List<ImageModel>> displayLookbook();
+  Future<List<ImageModel>> displayCarousel();
+  Future<List<ImageModel>> displayGallery();
 
   bool isStaff(BuildContext context);
 

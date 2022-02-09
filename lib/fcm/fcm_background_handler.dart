@@ -5,5 +5,5 @@ import 'package:firebase_messaging/firebase_messaging.dart';
 Future<void> firebaseBackgroundHandler(RemoteMessage message) async
 {
   await Firebase.initializeApp();
-  print('Handle here!');
+  print('Handle');
 }

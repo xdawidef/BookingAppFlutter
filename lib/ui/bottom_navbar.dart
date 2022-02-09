@@ -50,7 +50,6 @@ class _BottomNavBarState extends State<BottomNavBar> {
             buildBottomNavigationBarItem(Icons.book_online, 1, 'Booking'),
             buildBottomNavigationBarItem(Icons.history, 2, 'History'),
             buildBottomNavigationBarItem(Icons.settings, 3, 'Profile'),
-
           ],
         ),
       ),

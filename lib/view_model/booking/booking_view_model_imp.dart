@@ -5,7 +5,7 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/framework.dart';
-import 'package:flutter_app/cloud_firestore/all_salon_ref.dart';
+import 'package:flutter_app/cloud_firestore/salons_ref.dart';
 import 'package:flutter_app/fcm/notification_send.dart';
 import 'package:flutter_app/model/booking_model.dart';
 import 'package:flutter_app/model/city_model.dart';
@@ -15,7 +15,7 @@ import 'package:flutter_app/model/worker_model.dart';
 import 'package:flutter_app/state/state_management.dart';
 import 'package:flutter_app/string/strings.dart';
 import 'package:flutter_app/ui/login_page/theme.dart';
-import 'package:flutter_app/utils/utils.dart';
+import 'package:flutter_app/time_description/time_description.dart';
 import 'package:intl/intl.dart';
 import 'booking_view_model.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
@@ -71,7 +71,7 @@ class BookingViewModelImp implements BookingViewModel{
     return listTimeSlot.contains(index)
         ? greyColor
         : maxTimeSlot > index
-        ? redColor
+        ? timeColor
         : context
         .read(selectedTime)
         .state ==
@@ -119,11 +119,11 @@ class BookingViewModelImp implements BookingViewModel{
         context.read(selectedDate).state.year,
         context.read(selectedDate).state.month,
         context.read(selectedDate).state.day,
-        hour, //godzina
-        minutes //minuta
+        hour,
+        minutes
     )
         .millisecondsSinceEpoch;
-    //Create booking model
+
     var bookingModel = BookingModel(
         totalPrice: 0,
         workerId: context.read(selectedWorker).state.docId!,
@@ -155,29 +155,27 @@ class BookingViewModelImp implements BookingViewModel{
         .collection('User')
         .doc(FirebaseAuth.instance.currentUser!.phoneNumber!)
         .collection(
-        'Booking_${FirebaseAuth.instance.currentUser!.uid}') // Secure information
+        'Booking_${FirebaseAuth.instance.currentUser!.uid}')
         .doc(
         '${context.read(selectedWorker).state.docId}_${DateFormat('dd_MM_yyyy').format(context.read(selectedDate).state)}');
 
-    //Set for batch
     batch.set(workerBooking, bookingModel.toJson());
     batch.set(userBooking, bookingModel.toJson());
     batch.commit().then((value) {
 
       context.read(isLoading).state = true;
       var notificationPayload = NotificationPayloadModel(to: '/topics/${context.read(selectedWorker).state.docId!}',
-          notification: NotificationContent(title: 'New booking',
-          body: 'You have new booking from: ${FirebaseAuth.instance.currentUser!.phoneNumber}'));
+          notification: NotificationContent(title: 'New booking from: ${FirebaseAuth.instance.currentUser!.phoneNumber}',
+          body: 'At ${context.read(selectedTime).state} - '
+              '${DateFormat('dd/MM/yyyy').format(context.read(selectedDate).state)}'));
 
       sendNotification(notificationPayload)
       .then((value)  {
         context.read(isLoading).state = false;
         Navigator.of(context).pop();
         ScaffoldMessenger.of(scaffoldKey.currentContext!).showSnackBar(SnackBar(
-          content: Text('Booking successfuly'),
+          content: Text('Booking successfully'),
         ));
-
-        //Create event
         final Event event = Event(
             title: titleText,
             description: 'Appointment ${context.read(selectedTime).state} - '
@@ -198,9 +196,6 @@ class BookingViewModelImp implements BookingViewModel{
             iosParams: IOSParams(reminder: Duration(minutes: 30)),
             androidParams: AndroidParams(emailInvites: []));
         Add2Calendar.addEvent2Cal(event).then((value) {});
-
-
-        //Reset value
         context.read(selectedDate).state = DateTime.now();
         context.read(selectedWorker).state = WorkerModel();
         context.read(selectedCity).state = CityModel(name: '');

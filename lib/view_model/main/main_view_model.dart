@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_app/utils/utils.dart';
+import 'package:flutter_app/time_description/time_description.dart';
 
 abstract class MainViewModel {
   void processLogin(BuildContext context, GlobalKey<ScaffoldState> scaffoldKey);

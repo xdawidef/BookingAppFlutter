@@ -3,12 +3,14 @@ import 'package:flutter/material.dart';
 import 'package:flutter_app/model/booking_model.dart';
 import 'package:flutter_app/state/staff_user_history_state.dart';
 import 'package:flutter_app/state/state_management.dart';
-import 'package:flutter_app/utils/utils.dart';
+import 'package:flutter_app/time_description/time_description.dart';
 import 'package:flutter_app/view_model/worker_booking_history/worker_booking_history_view_model_imp.dart';
 import 'package:flutter_datetime_picker/flutter_datetime_picker.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:intl/intl.dart';
+
+import 'login_page/theme.dart';
 
 class WorkerHistoryScreen extends ConsumerWidget {
   final workerHistoryViewModel = WorkerBookingHistoryViewModelImp();
@@ -18,15 +20,21 @@ class WorkerHistoryScreen extends ConsumerWidget {
     var dateWatch = watch(workerHistorySelectedDate).state;
     return SafeArea(
         child: Scaffold(
-      backgroundColor: Color(0xFFDFDFDF),
-      appBar: AppBar(
-        title: Text('Worker history'),
-        backgroundColor: Color(0xFF383838),
-      ),
+      backgroundColor: greenColor,
+          appBar: PreferredSize(
+              preferredSize: Size.fromHeight(40),
+              child: AppBar(
+                title: Text('Staff history',
+                    style: yellowTextStyle.copyWith(
+                        fontSize: 18, fontWeight: medium)),
+                centerTitle: true,
+                backgroundColor: greenColor,
+                iconTheme: IconThemeData(color: yellowColor),
+              )),
       body: Column(
         children: [
           Container(
-              color: Color(0xFF008577),
+              color: lessDarkGreenColor,
               child: Row(
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
@@ -39,19 +47,20 @@ class WorkerHistoryScreen extends ConsumerWidget {
                             Text(
                               '${DateFormat.MMMM().format(dateWatch)}',
                               style:
-                                  GoogleFonts.robotoMono(color: Colors.white54),
+                              yellowTextStyle.copyWith(
+                                  fontSize: 16, fontWeight: medium),
                             ),
                             Text(
                               '${dateWatch.day}',
-                              style: GoogleFonts.robotoMono(
-                                  color: Colors.white,
-                                  fontWeight: FontWeight.bold,
-                                  fontSize: 22),
+                              style:
+                              yellowTextStyle.copyWith(
+                                  fontSize: 20, fontWeight: medium),
                             ),
                             Text(
                               '${DateFormat.EEEE().format(dateWatch)}',
                               style:
-                                  GoogleFonts.robotoMono(color: Colors.white54),
+                              yellowTextStyle.copyWith(
+                                  fontSize: 16, fontWeight: medium),
                             ),
                           ],
                         ),
@@ -70,7 +79,7 @@ class WorkerHistoryScreen extends ConsumerWidget {
                       padding: const EdgeInsets.all(8),
                       child: Align(
                         alignment: Alignment.centerRight,
-                        child: Icon(Icons.calendar_today, color: Colors.white),
+                        child: Icon(Icons.calendar_today, color: yellowColor),
                       ),
                     ),
                   )
@@ -92,7 +101,7 @@ class WorkerHistoryScreen extends ConsumerWidget {
                     );
                   else {
                     return FutureBuilder(
-                        future: syncTime(),
+                        future: synchroTime(),
                         builder: (context, snapshot) {
                           if (snapshot.connectionState ==
                               ConnectionState.waiting)
@@ -106,6 +115,7 @@ class WorkerHistoryScreen extends ConsumerWidget {
                                 itemCount: userBookings.length,
                                 itemBuilder: (context, index) {
                                   return Card(
+                                    color: greyColor,
                                     elevation: 8,
                                     shape: RoundedRectangleBorder(
                                         borderRadius: BorderRadius.all(
@@ -126,9 +136,9 @@ class WorkerHistoryScreen extends ConsumerWidget {
                                                   Column(
                                                     children: [
                                                       Text(
-                                                        'Date',
-                                                        style: GoogleFonts
-                                                            .robotoMono(),
+                                                        'Date:',
+                                                        style: yellowRobotoTextStyle.copyWith(
+                                                            fontSize: 15, fontWeight: medium),
                                                       ),
                                                       Text(
                                                         DateFormat("dd/MM/yy")
@@ -137,39 +147,32 @@ class WorkerHistoryScreen extends ConsumerWidget {
                                                             userBookings[
                                                             index]
                                                                 .timeStamp)),
-                                                        style: GoogleFonts
-                                                            .robotoMono(
-                                                            fontSize: 22,
-                                                            fontWeight:
-                                                            FontWeight
-                                                                .bold),
+                                                        style: yellowRobotoTextStyle.copyWith(
+                                                            fontSize: 20, fontWeight: bold),
                                                       ),
                                                     ],
                                                   ),
                                                   Column(
                                                     children: [
                                                       Text(
-                                                        'Time',
-                                                        style: GoogleFonts
-                                                            .robotoMono(),
+                                                        'Time:',
+                                                        style: yellowRobotoTextStyle.copyWith(
+                                                            fontSize: 15, fontWeight: medium),
                                                       ),
                                                       Text(
                                                         TIME_SLOT.elementAt(
                                                             userBookings[index]
                                                                 .slot),
-                                                        style: GoogleFonts
-                                                            .robotoMono(
-                                                            fontSize: 22,
-                                                            fontWeight:
-                                                            FontWeight
-                                                                .bold),
+                                                        style: yellowRobotoTextStyle.copyWith(
+                                                            fontSize: 20, fontWeight: bold),
                                                       ),
                                                     ],
                                                   )
                                                 ],
                                               ),
                                               Divider(
-                                                thickness: 1.5,
+                                                thickness: 1,
+                                                color: yellowColor,
                                               ),
                                               Column(
                                                 mainAxisAlignment:
@@ -185,25 +188,33 @@ class WorkerHistoryScreen extends ConsumerWidget {
                                                     children: [
                                                       Text(
                                                         '${userBookings[index].salonName}',
-                                                        style: GoogleFonts
-                                                            .robotoMono(
-                                                            fontSize: 20,
-                                                            fontWeight:
-                                                            FontWeight
-                                                                .bold),
+                                                        style: yellowRobotoTextStyle.copyWith(
+                                                            fontSize: 20, fontWeight: bold),
                                                       ),
                                                       Text(
                                                         '${userBookings[index].workerName}',
-                                                        style: GoogleFonts
-                                                            .robotoMono(),
+                                                        style: yellowRobotoTextStyle.copyWith(
+                                                            fontSize: 15, fontWeight: medium),
                                                       )
                                                     ],
                                                   ),
-                                                  Text(
-                                                    '${userBookings[index].salonAddress}',
-                                                    style: GoogleFonts
-                                                        .robotoMono(),
-                                                  )
+                                                  Row(
+                                                    mainAxisAlignment:
+                                                    MainAxisAlignment
+                                                        .spaceBetween,
+                                                    children: [
+                                                      Text(
+                                                        '${userBookings[index].salonAddress}',
+                                                        style: yellowRobotoTextStyle.copyWith(
+                                                            fontSize: 15, fontWeight: medium),
+                                                      ),
+                                                      Text(
+                                                        'Finished: ${userBookings[index].done}',
+                                                        style: yellowRobotoTextStyle.copyWith(
+                                                            fontSize: 15, fontWeight: medium),
+                                                      )
+                                                    ],
+                                                  ),
                                                 ],
                                               )
                                             ],
